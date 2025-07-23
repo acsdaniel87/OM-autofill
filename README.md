@@ -38,6 +38,15 @@ Az OM kitöltő egy böngészőbővítmény formájában futó szkript, amely:
 Telepítsd Tampermonkey-t, majd válaszd ki a megfelelő nyelvű README-t az útmutatóhoz.
 
 ---
+🌍 Fontos hivatkozások
+🏠 [inyr.hu](https://www.inyr.hu/) – Oktatási nyilvántartó rendszer A script ezen az oldalon segíti az OM azonosítók kezelését és kitöltését.
+
+🏫 [KIRINT](https://kirint.kir.hu/IntezmenyKereso/) Intézménykereső OM kódok ellenőrzéséhez és intézményadatok megtekintéséhez.
+
+🧩 [Tampermonkey](https://www.tampermonkey.net/) hivatalos oldal Böngészőbővítmény, amely lehetővé teszi a szkriptek futtatását.
+
+📜 [OM kitöltő inyr.hu-hoz](https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/OM%20kit%C3%B6lt%C5%91%20inyr.hu-hoz-5.0.user.js) – v5.0 szkript telepítése Kattints ide a szkript automatikus telepítéséhez Tampermonkey-on keresztül.
+---
 
 ## 📜 Licenc
 
