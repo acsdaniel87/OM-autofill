@@ -1,3 +1,9 @@
+# OM-Autovervollständigung für inyr.hu – v5.0
+
+> 🧩 Automatische Verwaltung von OM-IDs auf [inyr.hu](https://www.inyr.hu) – mit mehrsprachigem Panel und GitHub-Integration
+
+---
+
 Dieses Skript ermöglicht das Verwalten und automatische Ausfüllen von OM-IDs auf [inyr.hu](https://www.inyr.hu) über ein mehrsprachiges Bedienfeld.
 
 ### 🔧 Installation
