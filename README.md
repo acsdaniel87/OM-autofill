@@ -2,16 +2,7 @@
 <html lang="hu">
 <head>
   <meta charset="UTF-8">
-  <title>OM kitöltő – Többnyelvű dokumentáció (v5.0)</title>
-  <style>
-    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-    table { border-collapse: collapse; width: 100%; margin-top: 1em; }
-    th, td { border: 1px solid #ccc; padding: 8px; }
-    th { background-color: #f0f0f0; }
-    h1, h2, h3 { color: #333; }
-    a { color: #007b5e; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  
 </head>
 <body>
 
