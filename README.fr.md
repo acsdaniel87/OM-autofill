@@ -1,3 +1,9 @@
+# Remplissage automatique OM pour inyr.hu – v5.0
+
+> 🧩 Gestion automatique des identifiants OM sur [inyr.hu](https://www.inyr.hu) – avec panneau multilingue et intégration GitHub
+
+---
+
 Ce script permet de gérer et de remplir automatiquement les identifiants OM sur le site [inyr.hu](https://www.inyr.hu) via un panneau multilingue.
 
 ### 🔧 Installation
