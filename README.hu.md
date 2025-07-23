@@ -4,10 +4,6 @@
 
 ---
 
-## 🇭🇺 Magyar
-
-Ez a Tampermonkey szkript lehetővé teszi az OM azonosítók kezelését és automatikus kitöltését az `inyr.hu` felületén.
-
 ### 🔧 Telepítés
 
 1. Telepítsd a Tampermonkey-t:
