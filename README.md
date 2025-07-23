@@ -14,6 +14,10 @@ Ez az eszköz Tampermonkey szkriptként működik, és lehetővé teszi OM azono
 | 🇬🇧 English   | English installation & usage guide            | [README.en.md](README.en.md)             |
 | 🇩🇪 Deutsch   | Deutsche Anleitung zur Nutzung                | [README.de.md](README.de.md)             |
 | 🇫🇷 Français  | Guide d'installation en français              | [README.fr.md](README.fr.md)             |
+| 🇪🇸 Español   | Guía de instalación y uso en español         | [README.es.md](README.es.md)             |
+| 🇮🇹 Italiano  | Guida in italiano per l’utilizzo             | [README.it.md](README.it.md)             |
+| 🇷🇴 Română    | Ghid de instalare și utilizare în română     | [README.ro.md](README.ro.md)             |
+
 
 ---
 
