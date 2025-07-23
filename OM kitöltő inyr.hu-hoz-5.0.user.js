@@ -167,9 +167,21 @@
     panel.appendChild(delBtn);
 
     const share = document.createElement("button");
-    share.textContent = labels.shareLink;
-    share.onclick = () => GM_setClipboard("https://github.com/acsdaniel87/OM-autofill");
-    panel.appendChild(share);
+share.textContent = labels.shareLink;
+share.onclick = () => {
+  GM_setClipboard("https://github.com/acsdaniel87/OM-autofill");
+
+  // ✔ Zöld pipa vizuálisan, szöveg módosítása rövid időre
+  const originalText = share.textContent;
+  share.textContent = "✔";
+  share.style.color = "#28a745";
+
+  setTimeout(() => {
+    share.textContent = originalText;
+    share.style.color = ""; // visszaállítás
+  }, 1500);
+};
+panel.appendChild(share);
 
     const kir = document.createElement("div");
     kir.innerHTML = `<a href="https://kirint.kir.hu/IntezmenyKereso/" target="_blank" style="color:#007b5e;">🔗 ${labels.openKirint}</a>`;
