@@ -5,7 +5,8 @@ Ez az eszköz Tampermonkey szkriptként működik, és lehetővé teszi OM azono
 👉 Támogatja a többnyelvű vezérlőpanelt és GitHub-integrált nyelvi fájlokat.
 
 ---
-
+👉 [Kattints ide a telepítéshez](https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/OM%20kit%C3%B6lt%C5%91%20inyr.hu-hoz-5.0.user.js) – Tampermonkey automatikusan felismeri!
+---
 ## 📘 Válassz dokumentációs nyelvet:
 
 | Nyelv        | Leírás                                       | Link                                        |
