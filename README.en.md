@@ -1,3 +1,9 @@
+# OM Autofill for inyr.hu – v5.0
+
+> 🧩 Automatic OM identifier management on [inyr.hu](https://www.inyr.hu) – with multilingual panel and GitHub integration
+
+---
+
 This userscript allows you to manage and auto-fill OM identifiers on the [inyr.hu](https://www.inyr.hu) website using a multilingual panel.
 
 ### 🔧 Installation
