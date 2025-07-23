@@ -8,18 +8,16 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_setClipboard
-// @updateURL    https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/OM%20kit%C3%B6lt%C5%91%20inyr.hu-hoz-5.0.user.js
-// @downloadURL  https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/OM%20kit%C3%B6lt%C5%91%20inyr.hu-hoz-5.0.user.js
 // ==/UserScript==
 
 (function() {
   'use strict';
 
-  // 🔒 Ne fussunk bejelentkezéskor vagy OM mező nélkül
+  // 🔒 Ne fusson bejelentkezési oldalakon vagy OM mező hiányában
   if (location.pathname.includes("/Account/Login")) return;
   if (!document.querySelector('input[id="Omkod"]')) return;
 
-  // 🇭🇺 Magyar alapértelmezés (ha nyelvi fájl betöltése hibás)
+  // 🇭🇺 Magyar fallback nyelvi címkék
   const HU = {
     invalidOmAlert: "Hibás OM azonosító!",
     confirmDelete: "Biztosan törlöd ezt az OM azonosítót?",
@@ -30,28 +28,48 @@
     openKirint: "KIRINT Intézménykereső",
     closePanel: "Bezárás",
     inputPlaceholder: "pl. 202797",
-    reloadAlert: "Az oldal újratöltése..."
+    reloadAlert: "Az oldal újratöltése...",
+    selectLanguageLabel: "Felület nyelve"
   };
 
-  const langCode = (navigator.language || 'hu').slice(0, 2);
-  const supportedLangs = ['en', 'de', 'fr'];
-  const isExternal = supportedLangs.includes(langCode);
-  const langUrl = `https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/lang/${langCode}.js`;
+  // 🌍 Nyelv kód meghatározása
+  const storedLang = GM_getValue("uiLang", null);
+  const langCode = (storedLang || navigator.language || "hu").slice(0, 2);
+  const listUrl = "https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/lang/list.js";
+  let availableLangs = {};
 
-  fetch(langUrl)
-    .then(res => res.ok ? res.text() : Promise.reject(`HTTP ${res.status}`))
-    .then(code => {
-      if (!code.includes("window.OMLabels")) throw "Missing OMLabels";
-      eval(code);
-      if (typeof window.OMLabels !== "object") throw "OMLabels not defined";
-      initPanel(window.OMLabels);
+  // 📦 Nyelvlista betöltés + nyelvi fájl hívása
+  fetch(listUrl)
+    .then(res => res.ok ? res.text() : Promise.reject("List fetch error"))
+    .then(txt => {
+      eval(txt);
+      availableLangs = window.AvailableLanguages || {};
+      const selectedLang = availableLangs.hasOwnProperty(langCode) ? langCode : "hu";
+      loadLanguage(selectedLang);
     })
     .catch(err => {
-      console.warn("🌐 Nyelvi fájl betöltése sikertelen:", err);
-      initPanel(HU);
+      console.warn("🔴 Nyelvlista betöltése sikertelen:", err);
+      loadLanguage("hu");
     });
 
-  function initPanel(labels) {
+  // 🌐 Nyelvi fájl betöltése
+  function loadLanguage(code) {
+    const url = `https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/lang/${code}.js`;
+    fetch(url)
+      .then(res => res.ok ? res.text() : Promise.reject("Lang file not found"))
+      .then(txt => {
+        eval(txt);
+        const labels = window.OMLabels || HU;
+        initPanel(labels, code);
+      })
+      .catch(err => {
+        console.warn(`⚠️ ${code}.js betöltése sikertelen:`, err);
+        initPanel(HU, "hu");
+      });
+  }
+
+  // 🎛️ Panel létrehozása nyelvválasztóval
+  function initPanel(labels, currentLang) {
     const saved = GM_getValue("oms", []);
     const active = GM_getValue("activeOm", "");
     let panelVisible = false;
@@ -65,7 +83,7 @@
 
     const panel = document.createElement("div");
     Object.assign(panel.style, {
-      position: "fixed", top: "60px", right: "-260px", width: "250px",
+      position: "fixed", top: "60px", right: "-270px", width: "260px",
       background: "#f5f5f5", border: "1px solid #ccc", padding: "10px",
       fontSize: "14px", fontFamily: "sans-serif", zIndex: 9998, transition: "right 0.3s"
     });
@@ -75,15 +93,38 @@
     Object.assign(closeBtn.style, {
       position: "absolute", top: "6px", right: "8px", fontSize: "14px", cursor: "pointer"
     });
-    closeBtn.onclick = () => { panel.style.right = "-260px"; panelVisible = false; };
+    closeBtn.onclick = () => { panel.style.right = "-270px"; panelVisible = false; };
     panel.appendChild(closeBtn);
 
     const title = document.createElement("h3");
     title.textContent = labels.settingsTitle;
     panel.appendChild(title);
 
+    // 🔤 Nyelvválasztó
+    const langLabel = document.createElement("label");
+    langLabel.textContent = labels.selectLanguageLabel || "Felület nyelve";
+    langLabel.style.display = "block"; langLabel.style.marginTop = "10px";
+    panel.appendChild(langLabel);
+
+    const langSelect = document.createElement("select");
+    langSelect.style.width = "100%";
+    for (const [code, name] of Object.entries(availableLangs)) {
+      const opt = document.createElement("option");
+      opt.value = code;
+      opt.textContent = `${name} (${code})`;
+      if (code === currentLang) opt.selected = true;
+      langSelect.appendChild(opt);
+    }
+    langSelect.onchange = () => {
+      GM_setValue("uiLang", langSelect.value);
+      alert(labels.reloadAlert);
+      location.reload();
+    };
+    panel.appendChild(langSelect);
+
+    // 📄 OM lista + kezelőelemek
     const select = document.createElement("select");
-    select.style.width = "100%";
+    select.style.width = "100%"; select.style.marginTop = "10px";
     saved.forEach(om => {
       const opt = document.createElement("option");
       opt.value = om;
@@ -137,7 +178,7 @@
 
     button.onclick = () => {
       panelVisible = !panelVisible;
-      panel.style.right = panelVisible ? "6px" : "-260px";
+      panel.style.right = panelVisible ? "6px" : "-270px";
     };
 
     document.body.appendChild(button);
