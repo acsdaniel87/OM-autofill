@@ -168,7 +168,7 @@
 
     const share = document.createElement("button");
     share.textContent = labels.shareLink;
-    share.onclick = () => GM_setClipboard(location.href);
+    share.onclick = () => GM_setClipboard("https://github.com/acsdaniel87/OM-autofill");
     panel.appendChild(share);
 
     const kir = document.createElement("div");
