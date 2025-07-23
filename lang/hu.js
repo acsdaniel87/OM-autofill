@@ -6,5 +6,7 @@ window.OMLabels = {
   deleteLabel: "Törlés",
   shareLink: "Megosztási link másolása",
   openKirint: "KIRINT Intézménykereső",
-  closePanel: "Bezárás"
+  closePanel: "Bezárás",
+  inputPlaceholder: "pl. 202797",
+  reloadAlert: "Az oldal újratöltése..."
 };
