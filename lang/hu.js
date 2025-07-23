@@ -8,5 +8,6 @@ window.OMLabels = {
   openKirint: "KIRINT Intézménykereső",
   closePanel: "Bezárás",
   inputPlaceholder: "pl. 202797",
-  reloadAlert: "Az oldal újratöltése..."
+  reloadAlert: "Az oldal újratöltése...",
+  selectLanguageLabel: "Felület nyelve"
 };
