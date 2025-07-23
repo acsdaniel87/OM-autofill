@@ -6,5 +6,8 @@ window.OMLabels = {
   deleteLabel: "Löschen",
   shareLink: "Teilen-Link kopieren",
   openKirint: "KIRINT Intézménykereső",
-  closePanel: "Schließen"
+  closePanel: "Schließen",
+  inputPlaceholder: "z.B. 202797",
+  reloadAlert: "Seite wird neu geladen...",
+  selectLanguageLabel: "Oberflächensprache"
 };
