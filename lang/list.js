@@ -2,5 +2,8 @@ window.AvailableLanguages = {
   hu: "Magyar",
   en: "English",
   de: "Deutsch",
-  fr: "Français"
+  fr: "Français",
+  es: "Español",
+  it: "Italiano",
+  ro: "Română"
 };
