@@ -2,13 +2,12 @@
 // @name         OM kitöltő inyr.hu-hoz (v5.0)
 // @namespace    acsdaniel87
 // @version      5.0
-// @description  OM azonosító automatikus kitöltése és kezelése az inyr.hu oldalon, több nyelven
+// @description  OM azonosítók automatikus kitöltése és kezelése az inyr.hu oldalon, több nyelven
 // @author       Ács Dániel
 // @match        https://www.inyr.hu/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_setClipboard
-// @grant        GM_registerMenuCommand
 // @updateURL    https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/OM%20kit%C3%B6lt%C5%91%20inyr.hu-hoz-5.0.user.js
 // @downloadURL  https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/OM%20kit%C3%B6lt%C5%91%20inyr.hu-hoz-5.0.user.js
 // ==/UserScript==
@@ -16,7 +15,11 @@
 (function() {
   'use strict';
 
-  /** 🌍 Alapértelmezett magyar nyelvi szövegek (fallback) */
+  // 🔒 Ne fussunk bejelentkezéskor vagy OM mező nélkül
+  if (location.pathname.includes("/Account/Login")) return;
+  if (!document.querySelector('input[id="Omkod"]')) return;
+
+  // 🇭🇺 Magyar alapértelmezés (ha nyelvi fájl betöltése hibás)
   const HU = {
     invalidOmAlert: "Hibás OM azonosító!",
     confirmDelete: "Biztosan törlöd ezt az OM azonosítót?",
@@ -25,36 +28,34 @@
     deleteLabel: "Törlés",
     shareLink: "Megosztási link másolása",
     openKirint: "KIRINT Intézménykereső",
-    closePanel: "Bezárás"
+    closePanel: "Bezárás",
+    inputPlaceholder: "pl. 202797",
+    reloadAlert: "Az oldal újratöltése..."
   };
 
-  /** 🌐 Nyelvi betöltés GitHub-ról */
   const langCode = (navigator.language || 'hu').slice(0, 2);
   const supportedLangs = ['en', 'de', 'fr'];
   const isExternal = supportedLangs.includes(langCode);
   const langUrl = `https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/lang/${langCode}.js`;
 
-  /** 🤖 Nyelvi betöltés + inicializálás */
   fetch(langUrl)
-    .then(r => r.ok ? r.text() : Promise.reject("Not found"))
+    .then(res => res.ok ? res.text() : Promise.reject(`HTTP ${res.status}`))
     .then(code => {
-      eval(code); // feltételezzük, hogy window.OMLabels-t definiál
-      if (!window.OMLabels) throw "Missing OMLabels";
+      if (!code.includes("window.OMLabels")) throw "Missing OMLabels";
+      eval(code);
+      if (typeof window.OMLabels !== "object") throw "OMLabels not defined";
       initPanel(window.OMLabels);
     })
     .catch(err => {
-      console.warn("Nyelvi fájl betöltése nem sikerült, magyar nyelv használata.");
+      console.warn("🌐 Nyelvi fájl betöltése sikertelen:", err);
       initPanel(HU);
     });
 
-  /** 🛠️ Panel inicializáló függvény */
   function initPanel(labels) {
-    // OM lista betöltés
     const saved = GM_getValue("oms", []);
     const active = GM_getValue("activeOm", "");
     let panelVisible = false;
 
-    // Létrehozás
     const button = document.createElement("button");
     button.textContent = "⚙";
     Object.assign(button.style, {
@@ -69,7 +70,6 @@
       fontSize: "14px", fontFamily: "sans-serif", zIndex: 9998, transition: "right 0.3s"
     });
 
-    // ❌ Bezáró gomb
     const closeBtn = document.createElement("div");
     closeBtn.textContent = "❌";
     Object.assign(closeBtn.style, {
@@ -78,12 +78,10 @@
     closeBtn.onclick = () => { panel.style.right = "-260px"; panelVisible = false; };
     panel.appendChild(closeBtn);
 
-    // Cím
     const title = document.createElement("h3");
     title.textContent = labels.settingsTitle;
     panel.appendChild(title);
 
-    // OM mezők
     const select = document.createElement("select");
     select.style.width = "100%";
     saved.forEach(om => {
@@ -95,9 +93,8 @@
     });
     panel.appendChild(select);
 
-    // Input + hozzáadás
     const input = document.createElement("input");
-    input.placeholder = "pl. 202797";
+    input.placeholder = labels.inputPlaceholder;
     input.style.width = "100%";
     panel.appendChild(input);
 
@@ -110,11 +107,11 @@
       if (!list.includes(val)) list.push(val);
       GM_setValue("oms", list);
       GM_setValue("activeOm", val);
+      alert(labels.reloadAlert);
       location.reload();
     };
     panel.appendChild(addBtn);
 
-    // Törlés
     const delBtn = document.createElement("button");
     delBtn.textContent = labels.deleteLabel;
     delBtn.onclick = () => {
@@ -123,23 +120,21 @@
       const list = GM_getValue("oms", []).filter(v => v !== sel);
       GM_setValue("oms", list);
       GM_setValue("activeOm", list[0] || "");
+      alert(labels.reloadAlert);
       location.reload();
     };
     panel.appendChild(delBtn);
 
-    // Megosztási link
     const share = document.createElement("button");
     share.textContent = labels.shareLink;
     share.onclick = () => GM_setClipboard(location.href);
     panel.appendChild(share);
 
-    // 🔗 KIRINT link (mindig magyar)
     const kir = document.createElement("div");
     kir.innerHTML = `<a href="https://kirint.kir.hu/IntezmenyKereso/" target="_blank" style="color:#007b5e;">🔗 ${labels.openKirint}</a>`;
     kir.style.marginTop = "12px"; kir.style.fontSize = "12px"; kir.style.textAlign = "center";
     panel.appendChild(kir);
 
-    // Panel gomb
     button.onclick = () => {
       panelVisible = !panelVisible;
       panel.style.right = panelVisible ? "6px" : "-260px";
@@ -148,7 +143,6 @@
     document.body.appendChild(button);
     document.body.appendChild(panel);
 
-    // OM kitöltés
     const omkod = GM_getValue("activeOm", "");
     const targetInput = document.querySelector('input[id="Omkod"]');
     if (targetInput && omkod) targetInput.value = omkod;
