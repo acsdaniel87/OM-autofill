@@ -1,4 +1,3 @@
-﻿OM azonosító;Intézmény megnevezése
 026991;Városközponti Óvoda
 026993;Nyugati Városrészi Óvoda
 027000;Kertvárosi Óvoda
@@ -49,7 +48,7 @@
 027319;ERZSÉBETI GYERMEKSZÍV ÓVODA, MINI BÖLCSŐDE ÉS KONYHA
 027323;Berkesdi Fekete István Általános Iskola
 027324;Bogádi Dr. Berze Nagy János Általános Iskola
-027327;Kozármislenyi Janikovszky Éva Általános Iskola 
+027327;Kozármislenyi Janikovszky Éva Általános Iskola
 027330;Orfűi Fekete István Óvoda és Konyha
 027331;Pellérdi Általános Iskola
 027337;Beremendi Általános Iskola és Alapfokú Művészeti Iskola
@@ -61,7 +60,7 @@
 027350;Magyarbólyi Nyelvoktató Nemzetiségi Általános Iskola
 027351;Magyarmecskei Általános Iskola
 027353;Nagyharsányi Óvoda, Mini Bölcsőde, Könyvtár és Konyha
-027355;Kiss Géza Magyar-Horvát Kétnyelvű Nemzetiségi Általános Iskola 
+027355;Kiss Géza Magyar-Horvát Kétnyelvű Nemzetiségi Általános Iskola
 027356;Szalántai Általános Iskola
 027357;Újpetrei Általános Iskola
 027358;Vajszlói Kodolányi János Általános Iskola
@@ -83,7 +82,7 @@
 027415;Gandhi Gimnázium, Technikum, Kollégium és Alapfokú Művészeti Iskola
 027417;Baptista Szeretetszolgálat EJSZ Széchenyi István Gimnáziuma és Technikuma
 027425;Pécsi Művészeti Gimnázium, Szakgimnázium és Technikum
-027435;Mohácsi Petőfi Sándor Kollégium 
+027435;Mohácsi Petőfi Sándor Kollégium
 027488;Kalocsa Város Óvodája és Bölcsődéje
 027536;Kecskeméti Micimackó Óvoda
 027537;Kinder Ovi Magán Óvoda
@@ -106,7 +105,7 @@
 027735;Bajai Szentistváni Általános Iskola
 027737;Újvárosi Általános Iskola
 027743;Nagyasszonyunk Katolikus Óvoda, Általános Iskola és Gimnázium
-027751; Petőfi Sándor Katolikus Általános Iskola és Óvoda
+027751;Petőfi Sándor Katolikus Általános Iskola és Óvoda
 027777;Kecskeméti Református Általános Iskola
 027803;Szent József Katolikus Általános Iskola és Óvoda
 027804;Kiskunhalasi Fazekas Mihály Általános Iskola
@@ -137,7 +136,7 @@
 027910;Kelebiai Farkas László Általános Iskola
 027911;Kisszállási Sallai István Általános Iskola
 027912;Kunfehértói Általános Iskola
-027915;Tompai Szabó Dénes Általános Iskola 
+027915;Tompai Szabó Dénes Általános Iskola
 027924;Lakiteleki Eötvös Loránd Általános Iskola és Alapfokú Művészeti Iskola
 027925;Szentkirályi Általános Iskola és Alapfokú Művészeti Iskola
 027933;Kunpeszéri Általános Iskola
@@ -185,7 +184,7 @@
 028254;Békéscsabai Kazinczy Ferenc Általános Iskola
 028256;Békéscsabai Baptista Általános Iskola
 028258;Jankay Tibor Két Tanítási Nyelvű Általános Iskola
-028262;Lencsési Általános Iskola 
+028262;Lencsési Általános Iskola
 028264;Gerlai Általános Iskola
 028269;Savio Szent Domonkos Katolikus Általános Iskola és Óvoda
 028278;Magvető Református  Magyar - Angol Két Tanítási Nyelvű Általános Iskola és Óvoda
@@ -199,11 +198,11 @@
 028301;Sarkadi Általános Iskola
 028303;Battonyai Két Tanítási Nyelvű Szerb Általános Iskola és Óvoda
 028304;Magdu Lucian Román Általános Iskola és Óvoda
-028308;Mezőhegyesi József Attila Általános Iskola és Kollégium 
+028308;Mezőhegyesi József Attila Általános Iskola és Kollégium
 028314;Csorvási Gulyás Mihály Általános Iskola
 028315;Dobozi Általános Iskola
 028318;Kondorosi Petőfi István Általános Iskola és Kollégium
-028319;Köröstarcsai Arany Gusztáv Általános Iskola 
+028319;Köröstarcsai Arany Gusztáv Általános Iskola
 028320;Szabadkígyósi Általános Iskola
 028322;Újkígyósi Széchenyi István Általános Iskola
 028324;Vésztői Református Egyházközség Kis Bálint Általános Iskolája
@@ -275,10 +274,10 @@
 028721;ARNÓTI NAPKÖZI OTTHONOS ÓVODA ÉS MINI BÖLCSŐDE
 028722;Hernád Óvoda-Bölcsőde, Napközi konyha
 028725;Emődi Gyermekálom Óvoda és Bölcsőde
-028728;"GESZTELYI ""GYERMEKÁLOM"" NAPKÖZI-OTTHONOS ÓVODA"
+028728;GESZTELYI "GYERMEKÁLOM" NAPKÖZI-OTTHONOS ÓVODA
 028736;Dargay Attila Gyermekvarázs Óvoda és Bölcsőde
 028739;PITYPALATTY-VÖLGYI CSICSERGŐ ÓVODA
-028743;"SAJÓECSEGI ""PITYPANG"" ÓVODA ÉS MINI BÖLCSŐDE"
+028743;SAJÓECSEGI "PITYPANG" ÓVODA ÉS MINI BÖLCSŐDE
 028745;SAJÓLÁDI GYÖNGYSZEM ÓVODA, BÖLCSŐDE ÉS KONYHA
 028746;Sajóvámosi Kincses Sziget Óvoda, Bölcsőde és Konyha
 028748;SAJÓPÁLFALAI VACKOR ÓVODA ÉS MINI BÖLCSŐDE
@@ -404,10 +403,10 @@
 029172;Tolcsvai Általános Iskola
 029176;BERECZ KÁROLY NAPSUGÁR MŰVÉSZETI ÓVODA ÉS MINI BÖLCSŐDE
 029178;Kántor Mihály Általános Iskola
-029184;Karcsai Általános Iskola 
+029184;Karcsai Általános Iskola
 029190;Nagyrozvágyi Általános Iskola
 029192;Pácini Általános Iskola
-029195;Ricsei II. Rákóczi Ferenc Általános Iskola 
+029195;Ricsei II. Rákóczi Ferenc Általános Iskola
 029198;Sánta Erzsébet Általános Iskola
 029201;Ilosvai Selymes Péter Általános Iskola
 029203;Bekecsi II. Rákóczi Ferenc Informatikai és Matematikai Általános Iskola és Szakgimnázium
@@ -430,7 +429,7 @@
 029232;Borsodsziráki Bartók Béla Általános Iskola
 029236;Laki Körzeti Általános Iskola
 029239;Rakacai Általános Iskola
-029240;Szalonnai Kalász László Általános Iskola 
+029240;Szalonnai Kalász László Általános Iskola
 029241;Szendrői Apáczai Csere János Általános Iskola
 029242;Szendrőládi Általános Iskola
 029243;Szini Általános Iskola
@@ -442,7 +441,7 @@
 029264;Avasi Gimnázium
 029265;Tiszaújvárosi Eötvös József Gimnázium és Kollégium
 029269;Tokaji Gróf Széchenyi István Középiskolai Kollégium
-029280;Sárospataki Árpád Vezér Gimnázium és Kollégium 
+029280;Sárospataki Árpád Vezér Gimnázium és Kollégium
 029281;Lévay József Református Gimnázium és Diákotthon
 029308;Miskolci Bartók Béla Zene- és Táncművészeti Szakgimnázium
 029374;Szikszói Móricz Zsigmond Általános Iskola
@@ -479,7 +478,7 @@
 029658;Szegedi Zrínyi Ilona Általános Iskola
 029662;Szegedi Fekete István Általános Iskola
 029664;Szegedi Gregor József Általános Iskola
-029667;Szegedi Dózsa György Általános Iskola 
+029667;Szegedi Dózsa György Általános Iskola
 029670;Szegedi Janikovszky Éva Általános Iskola és Alapfokú Művészeti Iskola
 029671;Szegedi Bonifert Domonkos Általános Iskola
 029672;Tabán Általános Iskola és Alapfokú Művészeti Iskola
@@ -585,20 +584,20 @@
 030081;Chernel István Általános Iskola és Gimnázium
 030085;Adonyi Szent István Általános Iskola és Alapfokú Művészeti Iskola
 030087;Nikosz Beloiannisz Általános Iskola, Óvoda és Kiegészítő Nemzetiségi Óvoda
-030088;Besnyői Arany János Általános Iskola 
+030088;Besnyői Arany János Általános Iskola
 030091;Ercsi Eötvös József Általános Iskola
 030092;Dr. Fejérpataky László Sportiskolai Általános Iskola
 030094;Mezőfalvi Petőfi Sándor Általános Iskola és Alapfokú Művészeti Iskola
 030096;Nagyvenyimi Kossuth Lajos Általános Iskola
 030097;Perkátai Hunyadi Mátyás Általános Iskola
 030099;Rácalmási Jankovich Miklós Általános Iskola és Alapfokú Művészeti Iskola
-030100;Kulcsi Fekete István Általános Iskola  
+030100;Kulcsi Fekete István Általános Iskola
 030101;Ráckeresztúri Petőfi Sándor Általános Iskola
 030114;Csóri Mátyás Király Általános Iskola
 030117;Iszkaszentgyörgyi Általános Iskola
 030122;Mezőszentgyörgyi Eötvös Károly Általános Iskola
 030123;Nádasdladányi Nádasdy Ferenc Általános Iskola
-030124;Polgárdi Széchenyi István Általános Iskola 
+030124;Polgárdi Széchenyi István Általános Iskola
 030126;Sárszentmihályi Zichy Jenő Általános Iskola
 030132;Gorsium Általános Iskola
 030136;Esterházy Móric Nyelvoktató Német Nemzetiségi Általános Iskola
@@ -606,14 +605,14 @@
 030140;Hársfadombi Nyelvoktató Német Nemzetiségi Általános Iskola
 030142;Tima Endre Általános Iskola
 030146;Vértesboglári Nyelvoktató Német Nemzetiségi Általános Iskola
-030151;Dr. Kovács Pál Általános Iskola 
+030151;Dr. Kovács Pál Általános Iskola
 030154;Kálozi Szent István Általános Iskola
-030155;Gesztenyefasori Szent Márton Általános Iskola 
+030155;Gesztenyefasori Szent Márton Általános Iskola
 030164;Szabadhídvégi Napsugár Óvoda
 030166;Baracskai Kozma Ferenc Általános Iskola
 030169;Martonvásári Beethoven Általános Iskola
 030174;Sajnovics János Általános Iskola és Alapfokú Művészeti Iskola
-030175;Kápolnásnyéki Vörösmarty Mihály Általános Iskola és Gimnázium 
+030175;Kápolnásnyéki Vörösmarty Mihály Általános Iskola és Gimnázium
 030179;Dunaújvárosi Rosti Pál Gimnázium és Általános Iskola
 030180;Dunaújvárosi Széchenyi István Gimnázium
 030181;Móri Táncsics Mihály Gimnázium
@@ -700,17 +699,17 @@
 030509;Deák Téri Általános Iskola
 030510;Lackner Kristóf Általános Iskola
 030521;Győri Gárdonyi Géza Általános Iskola
-030523;Győri Arany János Angol-Német Két Tanítási Nyelvű Általános Iskola 
+030523;Győri Arany János Angol-Német Két Tanítási Nyelvű Általános Iskola
 030531;Szabadhegyi Magyar-Német Két Tanítási Nyelvű Általános Iskola és Gimnázium
 030532;Győri Tulipános Általános Iskola
 030533;Győri Móricz Zsigmond Általános Iskola
 030538;Széchenyi István Egyetem Öveges Kálmán Gyakorló Általános Iskola
 030546;Péterfy Sándor Evangélikus Gimnázium, Általános Iskola, Óvoda, Alapfokú Művészeti Iskola és Kollégium
-030549;Prohászka Ottokár Orsolyita Gimnázium, Általános Iskola és Óvoda 
+030549;Prohászka Ottokár Orsolyita Gimnázium, Általános Iskola és Óvoda
 030556;Bágyogszováti József Attila Általános Iskola
-030564;Kónyi Deák Ferenc Általános Iskola 
+030564;Kónyi Deák Ferenc Általános Iskola
 030570;Rábatamási Móra Ferenc Általános Iskola
-030572;Szili Szent István Általános Iskola 
+030572;Szili Szent István Általános Iskola
 030578;Szent Anna Katolikus Általános Iskola és Óvoda
 030579;Király Iván Általános Iskola
 030581;Abdai Zrínyi Ilona Általános Iskola
@@ -852,7 +851,7 @@
 031073;Debreceni Dózsa György Általános Iskola
 031074;Kölcsey Ferenc Református Gyakorló Általános Iskola
 031075;Debreceni Fazekas Mihály Általános Iskola
-031078;Debreceni Hunyadi János Általános Iskola 
+031078;Debreceni Hunyadi János Általános Iskola
 031080;Debreceni Hatvani István Általános Iskola
 031081;Debreceni Kinizsi Pál Általános Iskola
 031083;Debreceni Bolyai János Általános Iskola és Alapfokú Művészeti Iskola
@@ -869,7 +868,7 @@
 031104;Debreceni Gönczy Pál Általános Iskola
 031107;Svetits Katolikus Óvoda, Általános Iskola, Gimnázium és Kollégium
 031109;Debreceni Vörösmarty Mihály Általános Iskola és Alapfokú Művészeti Iskola
-031110;Debreceni Református Kollégium Általános Iskolája 
+031110;Debreceni Református Kollégium Általános Iskolája
 031114;Napraforgó Waldorf Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola
 031120;Berekböszörményi Kossuth Lajos Általános Iskola
 031121;Csökmői Bocskai István Általános Iskola
@@ -877,7 +876,7 @@
 031126;Furtai Bessenyei György Általános Iskola
 031130;Barsi Dénes Általános Iskola
 031135;Magyarhomorogi Szabó Pál Általános Iskola
-031138;Irinyi Károly Általános Iskola 
+031138;Irinyi Károly Általános Iskola
 031142;Zsákai Kölcsey Ferenc Általános Iskola
 031146;Álmosdi Bocskai István Általános Iskola
 031147;Bagaméri Általános Iskola és Alapfokú Művészeti Iskola
@@ -891,10 +890,10 @@
 031172;Ebesi Arany János Magyar-Angol Két Tanítási Nyelvű Általános Iskola
 031173;Diószegi Lajos Általános Iskola
 031174;Nagyhegyesi Veres Péter Általános Iskola
-031176;Szűcs Sándor Általános Iskola 
+031176;Szűcs Sándor Általános Iskola
 031179;Sári Gusztáv Általános Iskola és Alapfokú Művészeti Iskola
 031180;Nagyrábéi Móricz Zsigmond Általános Iskola
-031182;Jókai Mór Általános Iskola 
+031182;Jókai Mór Általános Iskola
 031183;Szerepi Kelemen János Általános Iskola
 031190;Tiszacsegei Fekete István Általános Iskola
 031191;Újszentmargitai Hunyadi Mátyás Általános Iskola
@@ -914,7 +913,7 @@
 031303;EGRI KERTVÁROSI ÓVODA
 031306;Szivárvány Óvoda
 031311;Benedek Elek Óvoda
-031346;"Lőrinci ""Napsugár"" Óvoda és Bölcsőde"
+031346;Lőrinci "Napsugár" Óvoda és Bölcsőde
 031349;Pétervásárai Napköziotthonos Óvoda és Bölcsőde
 031355;BÜKKSZENTERZSÉBETI SZÁZSZORSZÉP ÓVODA-BÖLCSŐDE
 031358;EGERBAKTAI ÓVODA
@@ -943,7 +942,7 @@
 031439;Százszorszép Napköziotthonos Óvoda és Bölcsőde
 031440;KÁPOLNAI TÜNDÉRKERT ÓVODA
 031441;Kompolt-Nagyút Gyermekkertész Óvoda és Bölcsőde
-031451;Egri Lenkey János Általános Iskola 
+031451;Egri Lenkey János Általános Iskola
 031455;Szent Imre Katolikus Általános Iskola és Jó Pásztor Óvoda, Alapfokú Művészeti Iskola
 031458;Egri Hunyadi Mátyás Általános Iskola
 031460;Egri Kemény Ferenc Sportiskolai Általános Iskola
@@ -957,7 +956,7 @@
 031494;Gárdonyi Géza Katolikus Általános Iskola és Óvoda
 031498;Bélapátfalvai Petőfi Sándor Általános Iskola
 031508;Kerecsendi Magyary Károly Általános Iskola
-031510;Maklári Szent István Általános Iskola 
+031510;Maklári Szent István Általános Iskola
 031517;Fáy András Általános Iskola és Alapfokú Művészeti Iskola
 031520;Recski Jámbor Vilmos Általános Iskola
 031521;Országh Kristóf Általános Iskola
@@ -1026,7 +1025,7 @@
 031709;Bánhidai Szent Erzsébet Óvoda
 031714;TATABÁNYAI SÁRBERKI ÓVODA
 031718;TATABÁNYAI GYERMEKKERT ÓVODA
-031724;"""Élménygazdag, Néphagyományőrző"" Alapítványi Óvoda"
+031724;"Élménygazdag, Néphagyományőrző" Alapítványi Óvoda
 031733;Nyergesújfalui Bóbita Óvoda és Bölcsőde
 031735;Csolnok és Környéke Körzeti Óvoda-Bölcsőde
 031748;DÖMÖSI SZIVÁRVÁNY ÓVODA ÉS MINI BÖLCSŐDE
@@ -1065,7 +1064,7 @@
 031847;Pólya György Általános Iskola
 031850;Dózsakerti Váci Mihály Általános Iskola
 031856;Szent Margit Gimnázium és Általános Iskola
-031858;Remédium Általános Iskola 
+031858;Remédium Általános Iskola
 031862;Kisbéri Táncsics Mihály Gimnázium és Általános Iskola
 031863;Nyergesújfalui Kernstok Károly Általános Iskola
 031867;Sárisáp és Környéke Körzeti Általános Iskola
@@ -1073,8 +1072,8 @@
 031884;Pilismaróti Bozóky Mihály Általános Iskola
 031887;Táti III. Béla Általános Iskola
 031895;Bábolnai Általános Iskola
-031896;Mocsai Arany János Általános Iskola 
-031897;Nagyigmándi Pápay József Általános Iskola 
+031896;Mocsai Arany János Általános Iskola
+031897;Nagyigmándi Pápay József Általános Iskola
 031904;Dunaalmási Csokonai Általános Iskola
 031906;Baji Szent István Német Nemzetiségi Általános Iskola
 031908;Angyalffy Mátyás Általános Iskola és Alapfokú Művészeti Iskola
@@ -1117,7 +1116,7 @@
 032097;Karancslapujtői Kastélykert Óvoda és Bölcsőde
 032105;Vizslási Bóbita Óvoda és Mini Bölcsőde
 032120;SZÉCSÉNYFELFALU MÉHECSKÉK ÓVODÁJA
-032122;"LUCFALVA-NAGYKERESZTÚR-MÁRKHÁZA-KISBÁRKÁNY KÖZNEVELÉSI INTÉZMÉNYI TÁRSULÁS ""FÉSZEK"" ÓVODÁJA"
+032122;LUCFALVA-NAGYKERESZTÚR-MÁRKHÁZA-KISBÁRKÁNY KÖZNEVELÉSI INTÉZMÉNYI TÁRSULÁS "FÉSZEK" ÓVODÁJA
 032135;BORSOSBERÉNYI GESZTENYÉSKERT ÓVODA
 032136;Aranydió Óvoda-Bölcsőde és Konyha
 032137;DRÉGELYPALÁNKI APRÓDFALVA ÓVODA
@@ -1129,7 +1128,7 @@
 032151;Szendehelyi Német Nemzetiségi Meserét Óvoda és Bölcsőde
 032155;Kiss Árpád Általános Iskola
 032169;Salgótarjáni Általános Iskola és Kollégium
-032184;Rétsági Általános Iskola 
+032184;Rétsági Általános Iskola
 032186;Berceli Széchenyi István Általános Iskola
 032189;Érsekvadkerti Petőfi Sándor Általános Iskola
 032192;HUGYAGI ÓVODA
@@ -1145,13 +1144,13 @@
 032224;Id. Szabó István Általános Iskola
 032228;Platthy József Általános Iskola
 032231;Mocsáry Antal Általános Iskola
-032232;Aba Sámuel Általános Iskola 
+032232;Aba Sámuel Általános Iskola
 032235;IGLICE NAPKÖZI OTTHONOS ÓVODA
 032241;Karancssági I. István Általános Iskola
 032242;Ráday Gedeon Általános Iskola
-032243;Magyargéci Gárdonyi Géza Általános Iskola 
+032243;Magyargéci Gárdonyi Géza Általános Iskola
 032248;Rimóci Szent István Általános Iskola
-032249;Ságújfalui Általános Iskola  
+032249;Ságújfalui Általános Iskola
 032250;Varsányi Hunyadi Mátyás Általános Iskola
 032254;Lucfalvi Általános Iskola
 032265;Szentgyörgyi István Általános Iskola
@@ -1176,7 +1175,7 @@
 032345;Magyarok Nagyasszonya Római Katolikus Általános Iskola
 032347;Fóti Fáy András Általános Iskola
 032348;Fóti Garay János Általános Iskola
-032349;Németh Kálmán Általános Iskola 
+032349;Németh Kálmán Általános Iskola
 032351;Gödi Németh László Általános Iskola és Alapfokú Művészeti Iskola
 032352;Huzella Tivadar Két Tanítási Nyelvű Általános Iskola
 032354;Diósdi Eötvös József Német Nemzetiségi Általános Iskola és Alapfokú Művészeti Iskola
@@ -1194,7 +1193,7 @@
 032369;Isaszegi Damjanich János Általános Iskola
 032370;Klapka György Általános Iskola és Alapfokú Művészeti Iskola
 032371;Kartali Könyves Kálmán Általános Iskola
-032373;Kerepesi Széchenyi István Általános Iskola 
+032373;Kerepesi Széchenyi István Általános Iskola
 032376;Mogyoródi Szent László Általános Iskola
 032377;Nagytarcsai Blaskovits Oszkár Általános Iskola
 032378;Péceli Integrált Oktatási Központ Általános Iskola és Gimnázium
@@ -1203,7 +1202,7 @@
 032382;Valkói Móra Ferenc Általános Iskola
 032385;Vácszentlászlói Szent László Általános Iskola
 032386;Fabriczius József Általános Iskola
-032388;Bajza Lenke Általános Iskola 
+032388;Bajza Lenke Általános Iskola
 032392;Szent Erzsébet Katolikus Általános Iskola és Óvoda
 032393;Kocséri Általános Művelődési Központ
 032395;Kalász Suli Általános Iskola
@@ -1235,7 +1234,7 @@
 032440;Szőnyi István Általános Iskola és Alapfokú Művészeti Iskola
 032441;Biatorbágyi Általános Iskola és Magyar-Angol Két Tanítási Nyelvű Általános Iskola
 032443;Herceghalmi Általános Iskola és Alapfokú Művészeti Iskola
-032444;Budajenői Általános Iskola 
+032444;Budajenői Általános Iskola
 032445;Budakeszi Széchenyi István Általános Iskola
 032446;Nagykovácsi Általános Iskola
 032447;Bocskai István Magyar-Német Két Tanítási Nyelvű Általános Iskola
@@ -1251,7 +1250,7 @@
 032458;Zsámbéki Zichy Miklós Általános Iskola
 032460;Prohászka Ottokár Katolikus Gimnázium
 032461;Pilisvörösvári Német Nemzetiségi Általános Iskola
-032462;József Nádor Általános Iskola és Alapfokú Művészeti Iskola (ÖKO Iskola) 
+032462;József Nádor Általános Iskola és Alapfokú Művészeti Iskola (ÖKO Iskola)
 032464;Zsámbéki Premontrei Keresztelő Szent János Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola
 032465;Piliscsabai Palánta Általános Iskola
 032466;Dunaharaszti Hunyadi János Német Nemzetiségi Általános Iskola
@@ -1263,7 +1262,7 @@
 032473;Szigethalmi Széchenyi István Általános Iskola
 032475;Alsónémedi Széchenyi István Általános Iskola
 032476;Bugyi Nagyközségi Kazinczy Ferenc Általános Iskola és Alapfokú Művészeti Iskola
-032477;Felsőpakonyi Herman Ottó Általános Iskola 
+032477;Felsőpakonyi Herman Ottó Általános Iskola
 032478;Gyáli Ady Endre Általános Iskola
 032480;Gyáli Bartók Béla Általános Iskola
 032482;Tolnay Lajos Általános Iskola
@@ -1285,7 +1284,7 @@
 032509;Sülysápi Móra Ferenc Általános Iskola
 032511;Sülysápi Szent István Általános Iskola
 032513;Üllői Árpád Fejedelem Általános Iskola
-032514;Vasadi Általános Iskola 
+032514;Vasadi Általános Iskola
 032515;GRASSALKOVICH ANTAL NÉMET NEMZETISÉGI ÉS KÉTNYELVŰ ÁLTALÁNOS ISKOLA
 032516;Vecsési Andrássy Gyula Általános Iskola
 032518;Vecsési Halmi Telepi Általános Iskola
@@ -1301,7 +1300,7 @@
 032536;Délegyházi Hunyadi János Általános Iskola
 032537;Dömsödi Széchenyi István Általános Iskola
 032538;Dunavarsányi Árpád Fejedelem Általános Iskola
-032540;Kiskunlacházi Általános Iskola 
+032540;Kiskunlacházi Általános Iskola
 032544;Szigetbecse-Makád Általános Iskola
 032545;Szigetcsépi Általános Iskola és Alapfokú Művészeti Iskola
 032546;Szigetszentmártoni Általános Iskola
@@ -1328,7 +1327,7 @@
 032582;Aszódi Evangélikus Petőfi Gimnázium, Általános Iskola és Kollégium
 032583;Teleki László Gimnázium
 032585;Százhalombattai Arany János Általános Iskola és Gimnázium
-032600;Fóti Népművészeti Szakgimnázium és Gimnázium 
+032600;Fóti Népművészeti Szakgimnázium és Gimnázium
 032614;Bocskai István Református Oktatási Központ - Óvoda, Általános Iskola, Gimnázium, Technikum, Szakgimnázium, Szakképző Iskola, Alapfokú Művészeti Iskola, Kollégium és Mini Bölcsőde
 032616;Bálint Márton Általános Iskola és Gimnázium
 032630;Gábor Dénes Óvoda, Általános Iskola, Gimnázium és Technikum
@@ -1470,7 +1469,7 @@
 033000;Ócsai Nefelejcs Napközi Otthonos Központi Óvoda és Manóvár Bölcsőde
 033002;ÖRKÉNYI MANÓCSKA ÓVODA
 033005;Táborfalvai Napraforgó Óvoda és Bölcsőde
-033007;"""Gyermekvár"" Német Nemzetiségi Óvoda"
+033007;"Gyermekvár" Német Nemzetiségi Óvoda
 033012;Csévharaszti Csicsergő Óvoda és Mini Bölcsőde
 033013;ECSERI CSERFA KUCKÓ ÓVODA
 033014;Ecseri Andrássy Utcai Óvoda és Mini Bölcsőde
@@ -1554,7 +1553,7 @@
 033400;Jókai Mór Református Általános Iskola és Óvoda
 033401;Nyíregyházi Bem József Általános Iskola
 033402;Nyíregyházi Kodály Zoltán Általános Iskola
-033416;Nyíregyházi Apáczai Csere János Általános Iskola és Alapfokú Művészeti Iskola 
+033416;Nyíregyházi Apáczai Csere János Általános Iskola és Alapfokú Művészeti Iskola
 033423;Nyíregyházi Móricz Zsigmond Általános Iskola
 033425;Nyíregyházi Móra Ferenc Általános Iskola
 033431;Waldorf Óvoda, Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola
@@ -1582,7 +1581,7 @@
 033479;Ölbey Irén Általános Iskola
 033480;Dr. Udvari István Általános Iskola
 033481;Fényeslitkei Kossuth Lajos Általános Iskola
-033487;Kékcsei Arany János Általános Iskola 
+033487;Kékcsei Arany János Általános Iskola
 033488;Sennyey Elza Általános Iskola
 033490;Nyírkarászi Váci Mihály Általános Iskola
 033493;Papi Kölcsey Ferenc Általános Iskola
@@ -1600,14 +1599,14 @@
 033513;Kocsordi Jókai Mór Általános Iskola
 033514;Mérk-Vállaj Német Nemzetiségi Általános Iskola
 033515;Nagydobosi Általános Iskola
-033516;Dancs Lajos Általános Iskola 
+033516;Dancs Lajos Általános Iskola
 033517;Nyírcsaholyi Benedek Elek Általános Iskola
 033518;Nyírkátai Vörösmarty Mihály Általános Iskola
 033520;Nyírparasznyai Általános Iskola
 033521;Ópályi Jókai Mór Általános Iskola
 033522;Németh Lili Általános Iskola
 033525;Porcsalmai Kiss Áron Általános Iskola
-033526;Szentpétery Zsigmond Általános Iskola 
+033526;Szentpétery Zsigmond Általános Iskola
 033528;Szamosszegi Általános Iskola
 033530;Tyukodi Általános Iskola
 033532;Vajai Molnár Mátyás Általános Iskola
@@ -1663,7 +1662,7 @@
 033654;Nyíregyházi Vasvári Pál Gimnázium
 033657;Vásárosnaményi II. Rákóczi Ferenc Gimnázium
 033659;Mátészalkai Esze Tamás Gimnázium
-033660;Báthory István Katolikus Óvoda, Két Tanítási Nyelvű Általános Iskola és Gimnázium 
+033660;Báthory István Katolikus Óvoda, Két Tanítási Nyelvű Általános Iskola és Gimnázium
 033661;Szent László Katolikus Gimnázium, Technikum, Két Tanítási Nyelvű Általános Iskola, Kollégium, Óvoda és Bölcsőde
 033665;Szent Imre Katolikus Gimnázium, Két Tanítási Nyelvű Általános Iskola, Kollégium, Óvoda és Alapfokú Művészeti Iskola
 033666;Nyíregyházi Arany János Gimnázium, Általános Iskola és Kollégium
@@ -1715,7 +1714,7 @@
 034079;Véssey Mihály Általános Iskola
 034084;Görgetegi Általános Iskola
 034092;Somogyszobi Általános Iskola
-034099;Balatonszárszói József Attila Általános Iskola 
+034099;Balatonszárszói József Attila Általános Iskola
 034100;Balatonszemesi Reich Károly Általános Iskola
 034105;Ságvári Szilády Áron Általános Iskola
 034107;Zamárdi Fekete István Általános Iskola
@@ -1728,7 +1727,7 @@
 034126;Arany János Nevelési és Művelődési Intézmény Szenta
 034127;Andocsi Szent Ferenc Általános Iskola és Alapfokú Művészeti Iskola
 034136;Kányai Kányafészek Óvoda Konyha és Bölcsőde
-034138;Törökkoppányi Általános Iskola 
+034138;Törökkoppányi Általános Iskola
 034141;Kaposvári Táncsics Mihály Gimnázium
 034143;Kaposvári Csokonai Vitéz Mihály Általános Iskola, Gimnázium és Szakgimnázium
 034145;Mátyás Király Gimnázium és Kollégium
@@ -1877,7 +1876,7 @@
 034647;Rákoscsabai Református Egyházközség Betlehem Óvodája
 034648;Rákosmenti Waldorf Óvoda
 034663;Budapest Főváros XVIII. Kerület Pestszentlőrinc-Pestszentimre Önkormányzata Egyesített Óvoda
-034684;"""Ovi"" Német Nemzetiségi Alapítványi Óvoda"
+034684;"Ovi" Német Nemzetiségi Alapítványi Óvoda
 034686;Liliomkert Katolikus Óvoda
 034698;Kispesti Egyesített Óvodák
 034710;Pesterzsébeti Nyitnikék Óvoda
@@ -1906,7 +1905,7 @@
 034812;Fillér Utcai Általános Iskola
 034813;Pannonhalmi Főapátság Máriaremete-Hidegkúti Ökumenikus Általános Iskolája
 034819;Nyitott Világ Fejlesztő Iskola
-034821;"""Habakukk a Gyermekekért"" Alapítványi Bölcsőde és Német Nemzetiségi Óvoda"
+034821;"Habakukk a Gyermekekért" Alapítványi Bölcsőde és Német Nemzetiségi Óvoda
 034822;Vadaskert Általános Iskola
 034827;Budapest III. Kerületi Bárczi Géza Általános Iskola
 034829;Csillaghegyi Általános Iskola
@@ -1990,7 +1989,7 @@
 035006;Virányos Általános Iskola
 035007;Zugligeti Általános Iskola
 035010;Pannonia Sacra Katolikus Általános Iskola és Óvoda
-035011;"""Carl Rogers"" Személyközpontú Óvoda és Általános Iskola"
+035011;"Carl Rogers" Személyközpontú Óvoda és Általános Iskola
 035016;Osztrák-Magyar Európaiskola
 035018;Great Grace Nemzetközi Óvoda, Általános Iskola és Gimnázium
 035019;Budapesti Nemzetközi Iskola-International School of Budapest és Magyar-Angol Két Tanítási Nyelvű Általános Iskola és Gimnázium
@@ -2001,14 +2000,14 @@
 035026;Budapest XIII. Kerületi Gárdonyi Géza Általános Iskola
 035028;Budapest XIII. Kerületi Pannónia Német Nemzetiségi Kétnyelvű és Angol Nyelvet Oktató Általános Iskola
 035031;Budapest XIII. Kerületi Hegedüs Géza Általános Iskola
-035036;Budapest XIII. Kerületi Eötvös József Általános Iskola 
+035036;Budapest XIII. Kerületi Eötvös József Általános Iskola
 035045;Zuglói Munkácsy Mihály Általános Iskola és Alapfokú Művészeti Iskola
 035046;Zuglói Herman Ottó Tudásközpont Általános Iskola
 035048;Budapest XIV. Kerületi Jókai Mór Általános Iskola
-035049;Budapest XIV. Kerületi Kaffka Margit Általános Iskola 
+035049;Budapest XIV. Kerületi Kaffka Margit Általános Iskola
 035050;Városligeti Magyar-Angol Két Tanítási Nyelvű Általános Iskola
 035051;Budapest XIV. Kerületi Liszt Ferenc Általános Iskola
-035053;Zuglói Heltai Gáspár Általános Iskola 
+035053;Zuglói Heltai Gáspár Általános Iskola
 035054;Dr. Mező Ferenc Általános Iskola
 035056;Hunyadi János Ének-zenei, Nyelvi Általános Iskola
 035057;Budapest XIV. Kerületi Széchenyi István Általános Iskola
@@ -2083,7 +2082,7 @@
 035166;Budapest XXIII. Kerületi Török Flóris Általános Iskola
 035167;Vörösmarty Mihály Református Általános Iskola
 035168;Budapest XX. Kerületi Hajós Alfréd Általános Iskola
-035169;Budapest XXI. Kerületi Herman Ottó Általános Iskola 
+035169;Budapest XXI. Kerületi Herman Ottó Általános Iskola
 035170;Budapest XXI. Kerületi Kölcsey Ferenc Általános Iskola
 035172;Budapest XXI. Kerületi Eötvös József Általános Iskola
 035173;Budapest XXI. Kerületi Katona József Általános Iskola
@@ -2104,7 +2103,7 @@
 035197;Budafoki Kossuth Lajos Magyar - Angol Két Tanítási Nyelvű Általános Iskola
 035198;Hugonnai Vilma Általános Iskola
 035199;Budafoki Herman Ottó Általános Iskola
-035200;Rózsakerti Demjén István Református Általános Iskola és Gimnázium 
+035200;Rózsakerti Demjén István Református Általános Iskola és Gimnázium
 035201;Kolonics György Általános Iskola és Köznevelési Sportiskola
 035202;Budafok - Tétényi Baross Gábor Általános Iskola
 035206;Fővárosi Iskolaszanatórium Általános Iskola és Gimnázium
@@ -2120,7 +2119,7 @@
 035225;Óbudai Gimnázium
 035226;Békásmegyeri Veres Péter Gimnázium
 035227;Újpesti Könyves Kálmán Gimnázium
-035228;Újpesti Babits Mihály Gimnázium 
+035228;Újpesti Babits Mihály Gimnázium
 035229;ELTE Apáczai Csere János Gyakorló Gimnázium és Kollégium
 035230;Budapest V. Kerületi Eötvös József Gimnázium
 035231;Veres Pálné Gimnázium
@@ -2153,7 +2152,7 @@
 035265;Magyar Táncművészeti Egyetem Nádasi Ferenc Gimnáziuma és Kollégiuma
 035266;Budapest VI. Kerületi Szinyei Merse Pál Gimnázium
 035271;Nikola Tesla Szerb Tanítási Nyelvű Óvoda, Általános Iskola, Gimnázium, Kollégium és Könyvtár
-035273;Maszoret Avot  Óvoda és Általános Iskola 
+035273;Maszoret Avot  Óvoda és Általános Iskola
 035277;Budapesti Fazekas Mihály Gyakorló Általános Iskola és Gimnázium
 035278;Szlovák Tanítási Nyelvű Óvoda, Általános Iskola, Gimnázium és Kollégium
 035279;ELTE Trefort Ágoston Gyakorló Gimnázium
@@ -2210,7 +2209,7 @@
 035625;Belvárosi Tanoda Alapítványi Gimnázium
 035646;Jászberény Város Óvodai Intézménye
 035649;Jászberényi Református Egyházközség Gólya Óvodája és Bölcsődéje
-035650;"""Maci"" Alapítványi Óvoda"
+035650;"Maci" Alapítványi Óvoda
 035728;TÖRÖKSZENTMIKLÓSI ÓVODAI INTÉZMÉNY
 035732;Önálló Óvodai Intézmény Jászapáti
 035736;KUNHEGYES VÁROS ÓVODAI INTÉZMÉNY, BÖLCSŐDE ÉS KONYHA
@@ -2279,12 +2278,12 @@
 035992;Verseghy Ferenc Gimnázium
 035994;Szolnoki Széchenyi István Gimnázium és Művészeti Szakgimnázium
 036007;Mezőtúri Református Kollégium, Gimnázium, Technikum, Általános Iskola, Óvoda és Bölcsőde
-036009;Humán Intézet Gimnázium és Alapfokú Művészeti Iskola 
+036009;Humán Intézet Gimnázium és Alapfokú Művészeti Iskola
 036014;Tiszafüredi Kossuth Lajos Gimnázium és Általános Iskola
 036045;Szent István Körúti Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola és Készségfejlesztő Iskola
 036127;Szekszárdi Óvoda, Bölcsőde és Mini Bölcsőde
 036132;Wunderland Kindergarten A Szekszárdi Német Nemzetiségi Önkormányzat Óvodája
-036138;"""Az Én Ovim"" Óvoda és Bölcsőde"
+036138;"Az Én Ovim" Óvoda és Bölcsőde
 036154;BÁTAAPÁTI ÓVODA ÉS KONYHA
 036231;DIÓSBERÉNYI NAPRAFORGÓ ÓVODA ÉS KONYHA
 036232;Értényi Szivárvány Óvoda és Főzőkonyha
@@ -2327,7 +2326,7 @@
 036378;Bonyhádi Petőfi Sándor Evangélikus Gimnázium, Kollégium, Általános Iskola és Alapfokú Művészeti Iskola
 036379;Dombóvári Illyés Gyula Gimnázium
 036384;Szekszárdi Garay János Gimnázium
-036385;Tolnai Szent István Katolikus Gimnázium 
+036385;Tolnai Szent István Katolikus Gimnázium
 036391;Paksi Vak Bottyán Gimnázium
 036394;Szekszárdi I. Béla Gimnázium, Kollégium és Általános Iskola
 036416;Szekszárdi Kolping Katolikus Szakképző Iskola, Gimnázium, Szakgimnázium, Szakiskola és Alapfokú Művészeti Iskola
@@ -2400,8 +2399,8 @@
 036623;Szombathelyi Zrínyi Ilona Általános Iskola
 036624;Szombathelyi Bercsényi Miklós Általános Iskola
 036626;Boldog Brenner János Általános Iskola és Gimnázium
-036627;Vasvári Általános Iskola 
-036633;Kemenesmagasi Általános Iskola 
+036627;Vasvári Általános Iskola
+036633;Kemenesmagasi Általános Iskola
 036638;Ostffyasszonyfai Petőfi Sándor Általános Iskola
 036641;Szent Imre Általános Iskola
 036643;Csaba József Általános Iskola
@@ -2412,7 +2411,7 @@
 036661;Dr. Tolnay Sándor Általános Iskola
 036667;Bői Általános Iskola
 036668;Gércei Általános Iskola
-036675;Répcelaki Móra Ferenc Általános Iskola 
+036675;Répcelaki Móra Ferenc Általános Iskola
 036679;Szelestei Általános Iskola
 036686;APÁTISTVÁNFALVI KÉTTANNYELVŰ ÁLTALÁNOS ISKOLA ÉS ÓVODA
 036688;Kossics József Kétnyelvű Általános Iskola és Óvoda
@@ -2423,7 +2422,7 @@
 036698;Rumi Rajki István Általános Iskola
 036699;Sorkifaludi Gárdonyi Géza Általános Iskola
 036701;Szentpéterfai Horvát-Magyar Kétnyelvű Nemzetiségi Általános Iskola
-036702;Táplánszentkereszti Apáczai Csere János Általános Iskola 
+036702;Táplánszentkereszti Apáczai Csere János Általános Iskola
 036703;Toronyi Gazdag Gyula Általános Iskola
 036704;Ambrózy-Migazzi István Általános Iskola
 036707;Hatos Ferenc Általános Iskola és Alapfokú Művészeti Iskola
@@ -2479,7 +2478,7 @@
 036940;Révfülöp és Térsége Napközi Otthonos Óvoda
 036941;Szigligeti Napközi Otthonos Óvoda
 036942;KEREKFENYVES ÓVODA
-036943;"""Kacagó"" Napközi Otthonos Óvoda és Főzőkonyha"
+036943;"Kacagó" Napközi Otthonos Óvoda és Főzőkonyha
 036946;Süni Napközi-Otthonos Óvoda
 036948;Öskü Község Önkormányzat Napsugár Óvoda és Bölcsőde
 036949;Hétszínvirág Napköziotthonos Óvoda és Bölcsőde
@@ -2505,7 +2504,7 @@
 037011;Szent István Római Katolikus Általános Iskola
 037021;Várkerti Általános Iskola
 037023;Horváth István Általános Iskola
-037026;Bán Aladár Általános Iskola 
+037026;Bán Aladár Általános Iskola
 037030;Veszprémi Kossuth Lajos Általános Iskola
 037031;Veszprémi Cholnoky Jenő Általános Iskola
 037033;Veszprémi Deák Ferenc Általános Iskola
@@ -2537,9 +2536,9 @@
 037095;Kastély Német Nemzetiségi Nyelvoktató Általános Iskola
 037096;Pápateszéri Általános Iskola
 037098;Ugodi Német Nemzetiségi Nyelvoktató Általános Iskola és Alapfokú Művészeti Iskola
-037100;Ihász Gábor Általános Iskola 
+037100;Ihász Gábor Általános Iskola
 037102;Csabrendeki Általános Iskola
-037109;Tatay Sándor Általános Iskola 
+037109;Tatay Sándor Általános Iskola
 037115;Lesence Völgye Általános Iskola
 037116;Művészetek Völgye Általános Iskola
 037118;Nyirádi Erzsébet Királyné Általános Iskola
@@ -2565,14 +2564,14 @@
 037160;Csajági Csicsergő Óvoda és Mini Bölcsőde
 037162;Balatonfűzfői Irinyi János Általános Iskola és Alapfokú Művészeti Iskola
 037165;Magyar-Angol Tannyelvű Gimnázium és Kollégium
-037166;Lóczy Lajos Gimnázium 
+037166;Lóczy Lajos Gimnázium
 037167;Kisfaludy Sándor Gimnázium, Kollégium és Alapfokú Művészeti Iskola
 037169;Lovassy László Gimnázium
 037170;Vetési Albert Gimnázium
 037171;III. Béla Gimnázium, Művészeti Szakgimnázium és Alapfokú Művészeti Iskola
 037172;Pápai Petőfi Sándor Gimnázium
 037178;Pápai Református Kollégium Gimnáziuma, Művészeti Szakgimnáziuma és Diákotthona
-037181;Ajkai Bródy Imre Gimnázium 
+037181;Ajkai Bródy Imre Gimnázium
 037185;Türr István Gimnázium és Kollégium
 037206;Noszlopy Gáspár Gimnázium és Kollégium
 037234;Batsányi János Gimnázium és Kollégium
@@ -2620,7 +2619,7 @@
 037423;Napköziotthonos Óvoda Zalaszabar
 037424;Zalaszentbalázsi Napköziotthonos Óvoda
 037438;Nagykutasi Napköziotthonos Óvoda
-037439;"""Életfa"" Nagylengyeli Óvoda-Bölcsőde"
+037439;"Életfa" Nagylengyeli Óvoda-Bölcsőde
 037446;Szentpéterúri Mazsola Óvoda-Bölcsőde
 037451;Zalalövői Borostyán Óvoda és Mini Bölcsőde
 037455;Zalaszentgyörgyi Napköziotthonos Óvoda
@@ -2729,7 +2728,7 @@
 037746;Szigetszentmiklósi Ádám Jenő Általános Iskola és Alapfokú Művészeti Iskola
 037749;Dabasi II. Rákóczi Ferenc Általános Iskola
 037750;Dabasi Kossuth Lajos Általános Iskola
-037754;Monori Kossuth Lajos Általános Iskola 
+037754;Monori Kossuth Lajos Általános Iskola
 037755;Monori Jászai Mari Általános Iskola
 037756;Nemzetőr Általános Iskola
 037757;Monorierdei Fekete István Általános Iskola
@@ -2747,7 +2746,7 @@
 037828;Péter András Gimnázium és Kollégium
 037857;Székesfehérvári Vasvári Pál Gimnázium
 037878;Szent József Óvoda, Általános Iskola, Gimnázium és Kollégium
-037882;Dorogi Zsigmondy Vilmos Magyar-Angol Két Tanítási Nyelvű Gimnázium 
+037882;Dorogi Zsigmondy Vilmos Magyar-Angol Két Tanítási Nyelvű Gimnázium
 037923;Hajnóczy József Gimnázium, Humán Szakgimnázium és Kollégium
 037935;Thuri György Gimnázium és Alapfokú Művészeti Iskola
 037953;Kiskunhalasi Bernáth Lajos Kollégium
@@ -2779,7 +2778,7 @@
 038413;Józsefvárosi Egységes Gyógypedagógiai Módszertani Intézmény és Általános Iskola
 038414;Dió Általános Iskola, Készségfejlesztő Iskola, Egységes Gyógypedagógiai Módszertani Intézmény és Kollégium
 038415;Budapest X. Kerületi Éltes Mátyás Általános Iskola és Kollégium
-038416;Hallássérültek Óvodája, Általános Iskolája, Szakiskolája, Egységes Gyógypedagógiai Módszertani Intézménye és Kollégiuma 
+038416;Hallássérültek Óvodája, Általános Iskolája, Szakiskolája, Egységes Gyógypedagógiai Módszertani Intézménye és Kollégiuma
 038417;Ferencvárosi Komplex Óvoda, Általános Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
 038418;Kőbányai Komplex Óvoda, Általános Iskola, Készségfejlesztő Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
 038419;Újbudai Montágh Imre Általános Iskola, Óvoda, Fejlesztő Nevelés-oktatást Végző Iskola, Készségfejlesztő Iskola, Egységes Gyógypedagógiai Módszertani Intézmény
@@ -2823,7 +2822,7 @@
 038501;Mosonmagyaróvári Éltes Mátyás Általános Iskola, Óvoda, Készségfejlesztő Iskola, Kollégium, Egységes Gyógypedagógiai Módszertani Intézmény
 038502;Soproni Kozmutza Flóra Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola és Készségfejlesztő Iskola
 038503;Doborjáni Ferenc Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Kollégium
-038504;Tóth Antal Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Kollégium 
+038504;Tóth Antal Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Kollégium
 038505;Radó Tibor Általános Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
 038506;Bárczi Gusztáv Óvoda, Általános Iskola, Készségfejlesztő Iskola, Kollégium
 038512;Dr. Molnár István Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános és Készségfejlesztő Iskola, Kollégium
@@ -2845,7 +2844,7 @@
 038541;Gödöllői Montágh Imre Általános Iskola, Szakiskola és Készségfejlesztő Iskola
 038542;Dalmady Győző Óvoda, Általános Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
 038547;Abonyi Montágh Imre Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda és Általános Iskola
-038549;Gyömrői Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Kollégium és Fejlesztő Nevelés - Oktatást Végző Iskola 
+038549;Gyömrői Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Kollégium és Fejlesztő Nevelés - Oktatást Végző Iskola
 038551;Bárczi Gusztáv Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Fejlesztő Nevelés-Oktatást Végző Iskola, Kollégium, Egységes Gyógypedagógiai Módszertani Intézmény
 038552;Somogy Vármegyei Duráczky József Óvoda, Általános Iskola, Egységes Gyógypedagógiai Módszertani Intézmény és Kollégium
 038556;Somogyvári Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Fejlesztő Nevelés-Oktatást Végző Iskola, Kollégium, Egységes Gyógypedagógiai Módszertani Intézmény
@@ -2856,7 +2855,7 @@
 038570;Szász Márton Általános Iskola és Fejlesztő Nevelés-Oktatást Végző Iskola
 038571;Bartos Sándor Óvoda, Általános Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
 038572;Bárczi Gusztáv Általános Iskola, Szakiskola, Készségfejlesztő Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
-038576;Zöldmező Utcai Óvoda, Általános Iskola, Fejlesztő Nevelés-Oktatást Végző Iskola, Szakiskola, Készségfejlesztő Iskola, Kollégium és Egységes Gyógypedagógiai Módszertani Intézmény 
+038576;Zöldmező Utcai Óvoda, Általános Iskola, Fejlesztő Nevelés-Oktatást Végző Iskola, Szakiskola, Készségfejlesztő Iskola, Kollégium és Egységes Gyógypedagógiai Módszertani Intézmény
 038577;Móricz Zsigmond Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Fejlesztő Nevelés-Oktatást Végző Iskola, Kollégium és Egységes Gyógypedagógiai Módszertani Intézmény
 038579;Szeliánszky Márta Általános Iskola, Készségfejlesztő Iskola, Szakiskola és Egységes Gyógypedagógiai Módszertani Intézmény
 038580;Koncz Dezső Óvoda, Általános Iskola, Kollégium, Készségfejlesztő Iskola és Egységes Gyógypedagógiai Módszertani Intézmény
@@ -2878,7 +2877,7 @@
 039145;Ferenczy Noémi Középiskolai Leánykollégium
 039150;Deák Ferenc Középiskolai Kollégium
 039152;József Attila Középiskolai Kollégium
-039153;Középiskolai Leánykollégium 
+039153;Középiskolai Leánykollégium
 039155;Fábry Zoltán Középiskolás Leánykollégium
 039165;Evangélikus Középiskolai Kollégium
 039177;Pécsi Hajnóczy József Kollégium
@@ -2906,7 +2905,7 @@
 039478;Orosházi Liszt Ferenc Alapfokú Művészeti Iskola
 039479;Chován Kálmán Alapfokú Művészeti Iskola
 039489;Kazincbarcikai Kodály Zoltán Alapfokú Művészeti Iskola
-039505;Miskolci Egressy Béni Zenei Alapfokú Művészeti Iskola 
+039505;Miskolci Egressy Béni Zenei Alapfokú Művészeti Iskola
 039515;Farkas Ferenc Alapfokú Művészeti Iskola
 039527;Reményi Ede Zenei Alapfokú Művészeti Iskola
 039530;Szentesi Lajtha László Alapfokú Művészeti Iskola
@@ -3033,8 +3032,8 @@
 040458;Laurus Alapfokú Művészeti Iskola
 040512;Esztergomi Kőrösy László Középiskolai Kollégium
 040523;Madách Imre Kollégium
-040524;Dózsa György Kollégium 
-040542;Szent Hedvig Kollégium 
+040524;Dózsa György Kollégium
+040542;Szent Hedvig Kollégium
 040549;Érseki Szent József Kollégium
 040556;Debreceni Deák Ferenc Tehetségfejlesztő Középiskolai Szakkollégium
 040578;Szép Ernő Kollégium
@@ -3134,7 +3133,7 @@
 101641;Fészek Waldorf Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola
 101668;Játékkuckó Magánóvoda
 101671;Zöld Kakas Líceum Mentálhigiénés Szakgimnázium, Gimnázium és Általános Iskola
-101680;"""Harmónia"" Alapfokú Művészeti Iskola"
+101680;"Harmónia" Alapfokú Művészeti Iskola
 101695;Szegedi Evangélikus Kollégium
 101699;Brumi Óvoda
 101702;Bocsoda Óvoda
@@ -3162,7 +3161,7 @@
 102243;ESZTERGOMI SPECIÁLIS GYERMEKOTTHONI KÖZPONT, ÁLTALÁNOS ISKOLA ÉS SZAKISKOLA
 102245;Evangélikus Egyházi Óvoda
 102246;Református Pedagógiai Intézet
-102249;"A Pápai Református Kollégium ""Tánc-Lánc"" Alapfokú Művészeti Iskolája"
+102249;A Pápai Református Kollégium "Tánc-Lánc" Alapfokú Művészeti Iskolája
 102255;TánCentrum Alapfokú Művészeti Iskola
 102277;Classic Alapfokú Művészeti Iskola
 102290;Magyar Műhely Általános Művelődési Központ
@@ -3177,12 +3176,12 @@
 102369;Dr. Martin György Alapfokú Művészeti Iskola
 102382;Erkel Gyula Újpesti Zenei Alapfokú Művészeti Iskola
 102383;Timaffy László Alapfokú Művészeti Iskola
-102403;Kiskunhalasi Konduktív Óvoda és Általános Iskola 
+102403;Kiskunhalasi Konduktív Óvoda és Általános Iskola
 102419;Kozármislenyi Alapfokú Művészeti Iskola
 102439;Cinege Alapfokú Művészeti Iskola
 102442;Pálóczi Horváth Ádám Református Alapfokú Művészeti Iskola
 102450;SZENTEI BÓBITA ÓVODA, BÖLCSŐDE ÉS KONYHA
-102472;"""Körtánc"" Alapfokú Művészeti Iskola"
+102472;"Körtánc" Alapfokú Művészeti Iskola
 102492;Budapesti Amerikai Nemzetközi Iskola
 102552;Zselic Alapfokú Művészeti Iskola
 102587;Rákospalotai Meixner Általános Iskola és Alapfokú Művészeti Iskola
@@ -3194,7 +3193,7 @@
 102677;Perintparti Szó-Fogadó Szombathelyi Waldorf Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola
 102679;Világ-Virága Alapfokú Művészeti Iskola
 102681;Majosházi Református Általános Iskola
-102688;Hétpettyes Magánóvoda 
+102688;Hétpettyes Magánóvoda
 102690;Babaház Óvoda
 102703;Abigél Általános Iskola, Alapfokú Művészeti Iskola, Szakgimnázium, Gimnázium, Kollégium, Technikum és Szakképző Iskola
 102707;Kunszentmártoni Alapfokú Művészeti Iskola
@@ -3235,7 +3234,7 @@
 200013;Mesevirág-Gyermekvilág Óvoda
 200016;Kunmadarasi Református Általános Iskola és Óvoda
 200018;Valcer Alapfokú Művészeti Iskola
-200019;"""Fehér Kavics"" Kelenföldi Református Óvoda"
+200019;"Fehér Kavics" Kelenföldi Református Óvoda
 200020;Epreskerti Általános Iskola
 200021;Hangfestő Alapfokú Művészeti Iskola
 200023;Csengelei Alapfokú Művészeti Iskola
@@ -3245,7 +3244,7 @@
 200037;Művész úti Óvoda és Bölcsőde
 200044;Gyermekház Montessori Óvoda
 200047;Zafféry Károly Szalézi Középiskola
-200049;"""Szárny-nyitogató"" Alapfokú Művészeti Iskola"
+200049;"Szárny-nyitogató" Alapfokú Művészeti Iskola
 200052;Balassi Bálint Gimnázium
 200056;Hagyományőrző Alapfokú Művészeti Iskola
 200059;Manófalva Waldorf Óvoda
@@ -3264,7 +3263,7 @@
 200130;Mackó-Kuckó Óvoda, Bölcsőde
 200133;Harkai Kerekerdő Óvoda és Bölcsőde
 200142;CSIPKEREKI ÖNKORMÁNYZATI ÓVODA
-200144;Miskolci Görögkatolikus Általános Iskola 
+200144;Miskolci Görögkatolikus Általános Iskola
 200145;Talentum Református Általános Iskola
 200172;Fejér Vármegyei Pedagógiai Szakszolgálat
 200175;Montessori Tehetség Óvoda és Bölcsőde
@@ -3277,14 +3276,14 @@
 200197;Forrás Református Óvoda
 200202;British International School Alapítványi Óvoda, Általános- és Középiskola
 200203;Debreceni Református Kollégium Dóczy Gimnáziuma
-200204;"""Partium"" Alapfokú Művészeti Iskola"
+200204;"Partium" Alapfokú Művészeti Iskola
 200207;Szikszói Szakközépiskola, Szakgimnázium, Technikum és Gimnázium
-200211;META Mesterek és Tanítványok Alapfokú Művészeti Iskola 
+200211;META Mesterek és Tanítványok Alapfokú Művészeti Iskola
 200212;Baranya Alapfokú Művészeti Iskola
 200218;Szegedi Petőfi Sándor Általános Iskola
-200223;"""Levendula"" Alapfokú Művészeti Iskola"
+200223;"Levendula" Alapfokú Művészeti Iskola
 200226;TRIOLA Alapfokú Művészeti Iskola
-200228;Gyermekliget Alternatív Óvoda, Általános Iskola és Alapfokú Művészeti Iskola 
+200228;Gyermekliget Alternatív Óvoda, Általános Iskola és Alapfokú Művészeti Iskola
 200230;Czövek Olivér Református Óvoda
 200232;Bethlen Gábor Gimnázium, Általános Iskola, Óvoda és Alapfokú Művészeti Iskola
 200238;MOTHER GOOSE ÓVODA
@@ -3325,7 +3324,7 @@
 200334;Az Értelmi Fogyatékosok Fejlődését Szolgáló Magyar Down Alapítvány Pedagógiai Szakszolgálata: Korai Fejlesztő, Gyógypedagógiai Tanácsadó és Gondozó Központja
 200337;Péceli Református Egyházközség Harangvirág Óvodája
 200339;Pesovár Ferenc Alapfokú Művészeti Iskola
-200340;"""Hajdútánc"" Alapfokú Művészeti Iskola"
+200340;"Hajdútánc" Alapfokú Művészeti Iskola
 200343;Zölderdő Óvoda
 200345;Kölcsey Ferenc Gimnázium
 200346;Csanádi Árpád Sportiskola, Általános Iskola és Gimnázium
@@ -3359,7 +3358,7 @@
 200434;Ranolder János Római Katolikus Általános Iskola és Óvoda
 200436;Szent Margit Ciszterci Óvoda, Általános Iskola, Alapfokú Művészeti Iskola és Kollégium
 200437;Aranyhíd Egységes Gyógypedagógiai, Konduktív Pedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola és Fejlesztő Nevelés-Oktatást Végző Iskola
-200438;Etyeki Nyelvoktató Német Nemzetiségi Általános Iskola 
+200438;Etyeki Nyelvoktató Német Nemzetiségi Általános Iskola
 200439;T-DANCE Alapfokú Művészeti Iskola
 200441;Liget Alapfokú Művészeti Iskola
 200442;Szemerei Általános Iskola
@@ -3367,7 +3366,7 @@
 200445;ÉFOÉSZ Szabolcs-Szatmár-Bereg Megyei Egyesülete Egységes Gyógypedagógiai, Konduktív Pedagógiai Módszertani Intézménye
 200447;Forrás Felnőttoktatási Gimnázium
 200448;Tiszatenyői Szent István Általános Iskola
-200450;Gönczy Pál Katolikus Általános Iskola 
+200450;Gönczy Pál Katolikus Általános Iskola
 200451;Újszentmargitai Hétszínvirág Óvoda és Bölcsőde
 200452;Tapsony Községi Önkormányzat Óvodája
 200454;Kazinczy Ferenc Magyar-Angol Két Tanítási Nyelvű, Nyelvoktató Német Nemzetiségi Általános Iskola
@@ -3390,7 +3389,7 @@
 200486;Sztárai Mihály Általános Iskola, Óvoda és Alapfokú Művészeti Iskola
 200487;Szekszárdi Garay János Általános Iskola
 200488;Kisteleki Alapfokú Művészeti Iskola
-200489;Beregi Általános Iskola, Szakképző Iskola, Gimnázium és Technikum 
+200489;Beregi Általános Iskola, Szakképző Iskola, Gimnázium és Technikum
 200493;Manó Óvoda
 200496;Zempléni Árpád Általános Iskola
 200501;Tetz Alapfokú Művészeti Iskola
@@ -3403,7 +3402,7 @@
 200523;Batthyány Lajos Általános Iskola
 200524;Herédi Óvoda
 200525;Herédi Általános Iskola
-200531;"""Csodabogár"" Óvoda és Bölcsőde"
+200531;"Csodabogár" Óvoda és Bölcsőde
 200532;Lieto Alapfokú Művészeti Iskola
 200534;ERZSÉBETVÁROSI KÓPÉVÁR ÓVODA
 200535;ERZSÉBETVÁROSI MAGONC ÓVODA
@@ -3431,7 +3430,7 @@
 200601;Kistokaji Általános Iskola
 200604;Tunyogi Pedagógiai Szakszolgálat
 200607;Szlovák Gimnázium, Általános Iskola, Óvoda és Kollégium
-200608;Mezőberényi Általános Iskola és Alapfokú Művészeti Iskola 
+200608;Mezőberényi Általános Iskola és Alapfokú Művészeti Iskola
 200609;Szolnoki Szent-Györgyi Albert Általános Iskola
 200611;Tapolcsányi Általános Iskolai és Középiskolai Kollégium
 200612;Tiszafüredi Óvodák
@@ -3441,7 +3440,7 @@
 200626;Újszászi Vörösmarty Mihály Általános Iskola
 200627;Szent Gotthárd Általános Iskola, Gimnázium és Technikum
 200630;Aranyalma Református Általános Iskola, Óvoda és Mini Bölcsőde
-200631;"""Virgonc Gyermekház"" Fejlesztő Nevelést - Oktatást Végző Gyógypedagógiai, Konduktív Pedagógiai Intézmény"
+200631;"Virgonc Gyermekház" Fejlesztő Nevelést - Oktatást Végző Gyógypedagógiai, Konduktív Pedagógiai Intézmény
 200632;Csabacsűdi Trefort Ágoston Általános Iskola
 200635;BALASSAGYARMATI KÖZPONTI ÓVODA
 200638;Bükkalja Általános Iskola
@@ -3452,11 +3451,11 @@
 200649;Vass Jenő Óvoda és Bölcsőde
 200650;Madách Tánc- és Színművészeti Szakgimnázium és Alapfokú Művészeti Iskola
 200656;Berentei Általános Iskola
-200657;Mezőkövesdi Általános Iskola 
+200657;Mezőkövesdi Általános Iskola
 200666;Kisember Waldorf Óvoda
 200667;Tüskevár Általános Iskola és Gimnázium
 200669;Bolyai János Gimnázium és Általános Iskola
-200672;"""Budapest Táncművészeti Stúdió"" Szakgimnázium és Alapfokú Művészeti Iskola"
+200672;"Budapest Táncművészeti Stúdió" Szakgimnázium és Alapfokú Művészeti Iskola
 200677;Ács Mihály Alapfokú Művészeti Iskola
 200678;PiCinke Magánóvoda
 200679;Eszterházy Károly Katolikus Egyetem Gyakorló Általános Iskola, Gimnázium, Alapfokú Művészeti Iskola és Technikum
@@ -3480,7 +3479,7 @@
 200771;GYÁLI TULIPÁN ÓVODA
 200772;Apostagi Nagy Lajos Általános Iskola
 200773;Assisi Szent Ferenc Római Katolikus Általános Iskola
-200774;Kunhegyesi Általános Iskola 
+200774;Kunhegyesi Általános Iskola
 200777;Sirius Gimnázium, Szakgimnázium és Felnőttek Általános Iskolája
 200779;Leonardo Média Akadémia Gimnázium, Szakgimnázium, Technikum és Általános Iskola
 200781;Hébé Alapfokú Művészeti Iskola
@@ -3493,7 +3492,7 @@
 200790;Szivárvány Óvoda, Fejlesztő Nevelés-Oktatást Végző Iskola, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Egységes Gyógypedagógiai Módszertani Intézmény
 200792;Vonyarcvashegyi Eötvös Károly Általános Iskola
 200793;Érted Vagyunk Szakiskola és Egységes Gyógypedagógiai Módszertani Intézmény
-200794;"""Puskás Ferenc Labdarúgó Akadémia"" Kollégium"
+200794;"Puskás Ferenc Labdarúgó Akadémia" Kollégium
 200800;Puzzle Óvoda és Általános Iskola
 200801;Fulókércsi Óvoda
 200803;Eszterlánc Magyar-Angol Montessori Óvoda
@@ -3515,9 +3514,9 @@
 200829;Tokodaltárói Gárdonyi Géza Általános Iskola
 200830;Fábiánsebestyéni Arany János Általános Iskola
 200831;Rétalapi Brunszvik Teréz Óvoda
-200838;Gorsium Gimnázium és Művészeti Szakgimnázium 
+200838;Gorsium Gimnázium és Művészeti Szakgimnázium
 200841;Pinokkió Magánóvoda
-200842;"""Szak-Ma"" Általános Iskola és Gimnázium"
+200842;"Szak-Ma" Általános Iskola és Gimnázium
 200844;Bácskai Általános Iskola
 200845;Vértessomlói Német Nemzetiségi Általános Iskola
 200846;Cambridge Sportóvoda
@@ -3558,7 +3557,7 @@
 200907;Ramassetter Vince Testnevelési Általános Iskola
 200908;Barcsi Széchényi Ferenc Gimnázium és Kollégium
 200909;Szegedi Eötvös József Gimnázium és Általános Iskola
-200910;Batthyány Lajos Általános Iskola 
+200910;Batthyány Lajos Általános Iskola
 200911;BUDAPEST FŐVÁROS XIII. KERÜLETI ÖNKORMÁNYZAT EGYESÍTETT ÓVODA
 200912;Nyírcsászári-Bátorliget-Terem-Nyírderzsi Általános Iskola
 200915;Nyírbátori Magyar - Angol Két Tanítási Nyelvű Általános Iskola
@@ -3582,11 +3581,11 @@
 200940;ZUBOGYI PAMACSKA ÓVODA
 200941;Dunapataji Kodály Zoltán Általános Iskola és Alapfokú Művészeti Iskola
 200944;Gyöngyöshalászi Széchenyi István Általános Iskola
-200945;Csongrád és Térsége Széchenyi István Általános Iskola és Alapfokú Művészeti Iskola 
+200945;Csongrád és Térsége Széchenyi István Általános Iskola és Alapfokú Művészeti Iskola
 200946;Alsó- Tisza-menti Többcélú Óvodák és Mini Bölcsődék
 200948;Gyöngyös Város Óvodái
 200950;Kálvin Téri Református Általános Iskola
-200951;Jánoshalmi Hunyadi János Általános Iskola 
+200951;Jánoshalmi Hunyadi János Általános Iskola
 200952;Csornai Középiskolai Kollégium
 200953;Csornai Széchenyi István Általános Iskola
 200954;Jászapáti Általános Iskola és Alapfokú Művészeti Iskola
@@ -3598,7 +3597,7 @@
 200960;Bácsalmás Kistérségi Többcélú Társulás Óvoda-Bölcsődéje
 200961;Dusnok-Fajsz Általános Iskola
 200962;Kiskunfélegyházi Napköziotthonos Óvoda
-200963;Atilla Király Gimnázium és Általános Iskola 
+200963;Atilla Király Gimnázium és Általános Iskola
 200966;Szent István Katolikus Óvoda és Általános Iskola
 200969;Kunszentmártoni Általános Iskola és Alapfokú Művészeti Iskola
 200970;Balotaszállási Napköziotthonos Óvoda
@@ -3690,7 +3689,7 @@
 201102;LUDAS KÖZSÉG ÓVODÁJA
 201103;Kislángi Tamási Áron Általános Iskola
 201104;Sajószentpéteri Központi Napközi Otthonos Óvoda
-201105;Dr. Tóth Zoltán Általános Iskola 
+201105;Dr. Tóth Zoltán Általános Iskola
 201106;Andornaktályai Mesevár Óvoda
 201108;Csurgói Eötvös József Sportiskolai Általános Iskola
 201109;Rábapatyi Arany János Általános Iskola
@@ -3704,7 +3703,7 @@
 201124;Fráter Erzsébet Általános Iskola
 201125;SZARVASGEDEI CSICSERGŐ ÓVODA
 201126;Hidvégardói Napközi Otthonos Óvoda
-201129;"Gyékényesi ""Csemeték-Kertje"" Óvoda"
+201129;Gyékényesi "Csemeték-Kertje" Óvoda
 201133;Sándorfalvi Térségi Alapfokú Művészeti Iskola
 201135;SOMOGYUDVARHELYI NAPKÖZI OTTHONOS ÓVODA ÉS KONYHA
 201137;Kiscsikó Óvoda
@@ -3721,8 +3720,8 @@
 201159;Waldorf Ház Pedagógiai Szolgáltató Intézet
 201160;Kőbányai Kertvárosi Általános Iskola
 201162;Holdfény Utcai Óvoda
-201167;Dunaföldvári Beszédes József Általános Iskola 
-201168;Lepsényi Fekete István Általános Iskola 
+201167;Dunaföldvári Beszédes József Általános Iskola
+201168;Lepsényi Fekete István Általános Iskola
 201169;Tapolcai Kertvárosi Óvoda
 201170;Tapolcai Bárdos Lajos Általános Iskola
 201171;Sopronkövesdi Általános Iskola
@@ -3753,7 +3752,7 @@
 201212;Bősárkányi Eötvös József Általános Iskola
 201214;Bátonyterenyei Bartók Béla Általános Iskola
 201215;Bátonyterenyei Városi Óvoda
-201216;Nyírgyulaji Kossuth Lajos Általános Iskola 
+201216;Nyírgyulaji Kossuth Lajos Általános Iskola
 201217;Tatai Református Gimnázium
 201218;Manualart Alapfokú Művészeti Iskola
 201219;Tápiósági Papp Károly Általános Iskola
@@ -3825,7 +3824,7 @@
 201344;Mágocsi Általános Iskola és Alapfokú Művészeti Iskola
 201345;Jászsági Gróf Apponyi Albert Általános Iskola és Alapfokú Művészeti Iskola
 201346;Játékkuckó Alapítványi Óvoda
-201348;Karcagi Nagykun Református Gimnázium 
+201348;Karcagi Nagykun Református Gimnázium
 201352;Csigabiga Óvoda
 201355;Marionett Alapfokú Művészeti Iskola
 201359;Hajdú-Bihar Vármegyei Általános Iskola, Gimnázium, Szakgimnázium, Technikum és Kollégium
@@ -3847,7 +3846,7 @@
 201404;Rózsa Magánóvoda
 201406;Gemenc Alapfokú Művészeti Iskola
 201409;Csodavilág Gyermekbirodalom Magánóvoda és Bölcsőde
-201411;"Vésztői Sérült Gyermekekért Egyesület ""Lépegető"" Fejlesztő Nevelés- oktatást Végző Iskolája"
+201411;Vésztői Sérült Gyermekekért Egyesület "Lépegető" Fejlesztő Nevelés- oktatást Végző Iskolája
 201412;Balatonszabadi Kincskereső Általános Iskola
 201413;Pillangó Keresztény Óvoda
 201415;Szent Antal Katolikus Általános Iskola és Óvoda
@@ -3861,7 +3860,7 @@
 201426;Baracsi Négy Vándor Óvoda és Hétpettyes Bölcsőde
 201427;Széchenyi Zsigmond Általános Iskola és Alapfokú Művészeti Iskola
 201428;NEKÉZSENYI NAPRAFORGÓ ÓVODA
-201429;GEMMA Fejlesztő Nevelés-oktatást Végző Iskola 
+201429;GEMMA Fejlesztő Nevelés-oktatást Végző Iskola
 201430;Tardonai Méhecske Óvoda és Bölcsőde
 201431;Kincsem Sziget Óvoda
 201434;Cseperedő Waldorf Óvoda
@@ -3879,12 +3878,12 @@
 201468;Veresegyházi Életfa Waldorf Általános Iskola és Alapfokú Művészeti Iskola
 201469;Karcagi Kováts Mihály Általános Iskola
 201470;Erőss Lajos Református Általános Iskola és Óvoda
-201472;Kaposmérői Hunyadi János Általános Iskola 
+201472;Kaposmérői Hunyadi János Általános Iskola
 201473;Dunakeszi Szent István Általános Iskola
 201475;Tüköry Lajos Általános Iskola és Alapfokú Művészeti Iskola
 201476;Hatvani Kossuth Lajos Általános Iskola
-201477;Hatvani Bajza József Gimnázium 
-201479;"""Katicabogár"" Evangélikus Óvoda"
+201477;Hatvani Bajza József Gimnázium
+201479;"Katicabogár" Evangélikus Óvoda
 201480;Széchenyi István Katolikus Német Nemzetiségi, Magyar-Angol Két Tanítási Nyelvű Általános Iskola, Óvoda és Bölcsőde
 201482;Hatvani Brunszvik Teréz Óvoda
 201483;Hatvani Napsugár Óvoda
@@ -3895,7 +3894,7 @@
 201488;Hatvani Gesztenyéskert Óvoda
 201489;Hatvani Varázskapu Óvoda
 201490;Kunszigeti Két Tanítási Nyelvű Általános Iskola és Alapfokú Művészeti Iskola
-201491;Erzsébetvárosi Magyar-Angol Két Tanítási Nyelvű Általános Iskola és Művészeti Szakgimnázium 
+201491;Erzsébetvárosi Magyar-Angol Két Tanítási Nyelvű Általános Iskola és Művészeti Szakgimnázium
 201492;Szalézi Szent Ferenc Gimnázium
 201493;Ónodi Homokvár Óvoda és Bölcsőde
 201494;Ónodi Lorántffy Zsuzsanna Általános Iskola
@@ -3960,14 +3959,14 @@
 201591;Szentendrei Evangélikus Zenei Óvoda
 201592;Homrogdi Görögkatolikus Általános Iskola és Óvoda
 201593;Csiga-Biga Óvoda
-201596;Magyarcsanádi Református Általános Iskola és Óvoda 
+201596;Magyarcsanádi Református Általános Iskola és Óvoda
 201597;Szent Erzsébet Katolikus Általános Iskola
 201600;Pannon Gimnázium és Általános Iskola
 201601;Mikes Kelemen Katolikus Gimnázium, Általános Iskola és Óvoda
 201602;Tokodi Mesevár Óvoda - Mini Bölcsőde és Bölcsőde
 201603;Tokodi Hegyeskő Általános Iskola
 201604;Szent Imre Katolikus Általános Iskola és Óvoda
-201605;Zichy János Általános Iskola 
+201605;Zichy János Általános Iskola
 201607;Csoda-Vár Óvoda és Bölcsőde Sajókeresztúr
 201608;Nagyboldogasszony Katolikus Általános Iskola
 201609;Búzaszem Katolikus Általános Iskola és Alapfokú Művészeti Iskola
@@ -3981,7 +3980,7 @@
 201620;Bábakalács Montessori Óvoda
 201621;Bét Menachem Héber-Magyar Két Tanítási Nyelvű Általános Iskola, Óvoda, Bölcsőde
 201623;SION Fejlesztő Nevelést- Oktatást Végző Iskola
-201625;Tudásfa Felnőttoktatási Gimnázium és Általános Iskola 
+201625;Tudásfa Felnőttoktatási Gimnázium és Általános Iskola
 201626;Vámosújfalui Általános Iskola
 201627;Aranyló Napraforgó Alapítványi Óvoda
 201628;RAJKAI NAPKÖZIOTTHONOS ÓVODA ÉS BÖLCSŐDE
@@ -4012,7 +4011,7 @@
 201663;Sopronkövesdi Nefelejcs Óvoda
 201664;Szent István Király Római Katolikus Általános Iskola és Óvoda
 201665;Kálvin Téri Református Általános Iskola
-201666;Budapest III. Kerületi Csillagház Gyógypedagógiai Általános Iskola 
+201666;Budapest III. Kerületi Csillagház Gyógypedagógiai Általános Iskola
 201667;Hársliget Óvoda Csabacsűd-Örménykút
 201668;Bóbita Varázspalota Magánóvoda
 201669;Szent István Római Katolikus Általános Iskola és Óvoda
@@ -4069,7 +4068,7 @@
 201723;Biai Gáspár Református Általános Iskola és Szőlőszem Óvoda
 201724;Eötvös József Református Oktatási Központ - Óvoda, Általános Iskola, Gimnázium, Technikum, Szakképző Iskola és Alapfokú Művészeti Iskola
 201725;Balatonfüredi Fekete István Általános Iskola, Egységes Gyógypedagógiai Módszertani Intézmény
-201726;Bolyai János Katolikus Általános Iskola  
+201726;Bolyai János Katolikus Általános Iskola
 201727;Zsadányi Református Általános Iskola
 201729;Baptista Szeretetszolgálat Csicsergő Óvodája
 201730;Baptista Alapfokú Művészeti Iskola
@@ -4092,7 +4091,7 @@
 201752;Palásti László Általános Iskola és Óvoda
 201754;SZOMBATHELYI VADVIRÁG ÓVODA
 201755;Munkácsy Mihály Katolikus Általános Iskola Balástya
-201756;KOSZISZ Szent István Gimnázium 
+201756;KOSZISZ Szent István Gimnázium
 201757;TISZADADAI NYITNIKÉK ÓVODA ÉS KONYHA
 201758;KÉKI MESEKERT ÓVODA
 201759;Fenyves Óvoda
@@ -4157,7 +4156,7 @@
 201842;Delfin ÚszóSport Óvoda
 201843;Szőlőszem Óvoda
 201844;Tiborszállási Péchy László Adventista Általános Iskola
-201845;"Tiborszállási ""Nyitnikék"" Adventista Óvoda"
+201845;Tiborszállási "Nyitnikék" Adventista Óvoda
 201847;Delfin Óvoda
 201851;Úri Napsugár Óvoda és Mini Bölcsőde
 201852;HEVESARANYOSI ÓVODA
@@ -4231,7 +4230,7 @@
 201930;Somogyszobi Óvoda
 201931;Balatonföldvári Mesevár Óvoda és Tengerszem Bölcsőde
 201932;Magyarbánhegyesi Mesevár Óvoda és Bölcsőde
-201933;"FÜZESGYARMATI ""LURKÓFALVA"" ÓVODA"
+201933;FÜZESGYARMATI "LURKÓFALVA" ÓVODA
 201934;Dégi Bóbita Óvoda-Bölcsőde és Konyha
 201935;Faddi Kismanók Óvoda, Bölcsőde és Mini Bölcsőde
 201936;Dévaványai Általános Művelődési Központ és Bölcsőde
@@ -4465,7 +4464,7 @@
 202176;Tótszentmártoni Napköziotthonos Óvoda
 202177;Tengelici Mézeskalács Óvoda és Mini Bölcsőde
 202180;Zombai Körzeti Óvoda és Mini Bölcsőde
-202181;"Tófeji ""Mesesziget"" Óvoda"
+202181;Tófeji "Mesesziget" Óvoda
 202182;Gyulaházai Életfa Óvoda
 202183;Tarnaleleszi Általános Művelődési Központ
 202184;Pácini Bárókert Óvoda, Mini Bölcsőde és Konyha
@@ -4563,7 +4562,7 @@
 202286;Pókaszepetki Vackor Óvoda
 202288;Szerepi Kelemen Hétpettyes Óvoda és Mini Bölcsőde
 202289;Dombóvári Szivárvány Óvoda és Bölcsőde
-202290;Vasmegyeri Református Mesevár Óvoda 
+202290;Vasmegyeri Református Mesevár Óvoda
 202291;Domaszéki Kincskereső Óvoda
 202292;Csengelei Szivárvány Óvoda és Mini Bölcsőde
 202294;LEGYESBÉNYEI ÓVODA ÉS KONYHA
@@ -4578,7 +4577,7 @@
 202307;Szini Csodavár Óvoda és Konyha
 202308;GYÖRKÖNYI NAPSUGÁR ÓVODA ÉS KONYHA
 202309;HERCEGKÚT GYÖNGYSZEM NÉMET NEMZETISÉGI ÓVODA
-202310;"Taktabáji ""Kék Ibolya"" Óvoda"
+202310;Taktabáji "Kék Ibolya" Óvoda
 202311;Ozorai Csupa Csoda Óvoda
 202312;Inkei Napsugár Óvoda
 202313;TISZAVÁRKONYI ÓVODA ÉS MINI BÖLCSŐDE
@@ -4753,7 +4752,7 @@
 202514;Érsekcsanádi Napköziotthonos Óvoda és Mini Bölcsőde
 202515;Kajdacsi Százszorszép Óvoda, Mini Bölcsőde és Konyha
 202516;DENCSHÁZAI TÁRSULT ÓVODÁK, MINI BÖLCSŐDE ÉS KONYHA
-202517;"Piliscsévi ""Aranykapu"" Óvoda-Bölcsőde"
+202517;Piliscsévi "Aranykapu" Óvoda-Bölcsőde
 202519;KÉTEGYHÁZI NAPSUGÁR ÓVODA
 202520;Gánti Német Nemzetiségi Óvoda
 202521;JÁSZDÓZSAI MOCORGÓ ÓVODA ÉS MINI BÖLCSŐDE
@@ -4914,7 +4913,7 @@
 202696;BÁBONYMEGYERI NAPSUGÁR ÓVODA
 202697;Szőlőfürt Református Óvoda
 202699;Tiszta Forrás Waldorf Általános Iskola, Gimnázium, Alapfokú Művészeti Iskola és Óvoda
-202700;Ficak Magánóvoda 
+202700;Ficak Magánóvoda
 202701;BAKONYBÉLI SZENT GELLÉRT NAPKÖZIOTTHONOS ÓVODA
 202702;NAGYRÉVI TÜNDÉRKERT ÓVODA ÉS KONYHA
 202703;Szederinda Óvoda és Konyha
@@ -5172,7 +5171,7 @@
 203025;Aranyossy Ágoston Református Óvoda, Általános Iskola és Szakiskola
 203026;Konyári Óvoda és Bölcsőde
 203071;ÚJKÉRI MOCORGÓ ÓVODA
-203072;Csillagbölcső Waldorf Óvoda 
+203072;Csillagbölcső Waldorf Óvoda
 203073;Mezőberényi Talentum Református Óvoda
 203074;SÁRPILISI TÜNDÉRKERT ÓVODA
 203075;NYERGESÚJFALUI NAPSUGÁR ÓVODA
@@ -5206,7 +5205,7 @@
 203112;TANDEM Gimnázium
 203113;Kicsi Kincsem Óvoda
 203114;Györffy István Katolikus Általános Iskola és Szent Erzsébet Óvoda
-203116;Pentelei Waldorf Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola 
+203116;Pentelei Waldorf Általános Iskola, Gimnázium és Alapfokú Művészeti Iskola
 203117;Kőrösi Csoma Sándor Református Gimnázium
 203118;Cifra Palota Természetközeli Óvoda
 203120;LIPPÓI ÓVODA ÉS KONYHA
@@ -5224,7 +5223,7 @@
 203132;SZAJLAI MÁKVIRÁG ÓVODA
 203133;Tenki Csicsergő Óvoda és Bölcsőde
 203135;BALATONAKARATTYAI SZILFA ÓVODA
-203136;Kipp-Kopp Óvoda 
+203136;Kipp-Kopp Óvoda
 203137;Idesüss Óvoda
 203138;BEKÖLCEI MINI MANÓ ÓVODA
 203139;Mikófalvai Tündérkert Óvoda
@@ -5236,7 +5235,7 @@
 203147;Egerszalóki Szivárvány Óvoda, Bölcsőde és Konyha
 203148;EGERSZÓLÁTI BÓBITA ÓVODA
 203151;Tisza-tavi Alapfokú Művészeti Iskola
-203152;Digitális Tudás Iskolája Általános Iskola 
+203152;Digitális Tudás Iskolája Általános Iskola
 203153;Apátkúti Erdei Általános Iskola
 203155;ÚJIREGI GESZTENYE ÓVODA
 203156;NÉMETVÁROSI ÓVODA
@@ -5382,7 +5381,7 @@
 203318;GIGEI GERLEFÉSZEK ÓVODA
 203319;Tamási Aranyalma Waldorf Iskola és Alapfokú Művészeti Iskola
 203320;Budapesti Tengerszem Óvoda
-203321;"""Táltos"" Talentum Református Alapfokú Művészeti Iskola"
+203321;"Táltos" Talentum Református Alapfokú Művészeti Iskola
 203322;Boldog Brenner János Óvoda
 203323;Mandulafa Óvoda
 203325;Gyöngyvirág Művészeti Óvoda és Mini Bölcsőde
@@ -5393,13 +5392,13 @@
 203330;Újszentiváni Tölgyfa Óvoda és Bölcsőde
 203331;Nagykátai Járási Óvoda, Általános Iskola, Egységes Gyógypedagógiai Módszertani Intézmény
 203332;Kőbányai Csukás István Magyar-Angol Két Tanítási Nyelvű Általános Iskola
-203333;Bölcskei Kegyes József Általános Iskola 
+203333;Bölcskei Kegyes József Általános Iskola
 203334;Viszneki Általános Iskola
 203335;Körmendi Alapfokú Zene- és Táncművészeti Iskola
 203336;Szent István Király Általános Iskola
 203337;Mosoly Egységes Gyógypedagógiai Módszertani Intézmény, Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola és Kollégium
 203338;Sárándi Kossuth Lajos Általános Iskola
-203339;Alsójászsági Petőfi Sándor Általános Iskola 
+203339;Alsójászsági Petőfi Sándor Általános Iskola
 203340;Bercsényi Miklós Általános Iskola
 203341;Szent Pantaleimon Görögkatolikus Óvoda, Általános Iskola és Alapfokú Művészeti Iskola
 203342;Zichyújfalui Református Általános Iskola
@@ -5422,7 +5421,7 @@
 203364;Pannonhalmi Szent Benedek Általános Iskola és Alapfokú Művészeti Iskola
 203367;Balatonfüredi Szent Benedek Gimnázium, Technikum és Kollégium
 203368;LAKITELEKI SZIVÁRVÁNY ÓVODA ÉS BÖLCSŐDE
-203369;Debreceni Nemzetközi Iskola 
+203369;Debreceni Nemzetközi Iskola
 203370;Avalon Nemzetközi Iskola
 203372;Újkenézi Mesevár Óvoda és Konyha
 203373;Újkenézi Általános Iskola és Alapfokú Művészeti Iskola
@@ -5454,7 +5453,7 @@
 203411;Béres János Alapfokú Művészeti Iskola
 203412;Takács Jenő Alapfokú Művészeti Iskola
 203413;Zalaegerszegi Liszt Ferenc Általános Iskola
-203414;Zalaegerszegi Dózsa György Magyar-Angol Két Tanítási Nyelvű Általános Iskola 
+203414;Zalaegerszegi Dózsa György Magyar-Angol Két Tanítási Nyelvű Általános Iskola
 203415;Pécsvárady Botond Óvoda, Általános Iskola, Készségfejlesztő Iskola, Fejlesztő Nevelést-Oktatást Végző Iskola, Kollégium, Egységes Gyógypedagógiai Módszertani Intézmény
 203416;Deák Úti Óvoda, Általános Iskola, Szakiskola, Készségfejlesztő Iskola, Fejlesztő Nevelést-Oktatást Végző Iskola, Kollégium, Egységes Gyógypedagógiai Módszertani Intézmény
 203417;Királyegyházai Általános Iskola
@@ -5556,7 +5555,7 @@
 203526;Kazinczy Ferenc Általános Iskola és Alapfokú Művészeti Iskola
 203527;Gyermekek Háza Alternatív Általános Iskola és Gimnázium
 203528;Marcali Mikszáth Kálmán Általános Iskola
-203529;Előszállási Árpád Fejedelem Általános Iskola 
+203529;Előszállási Árpád Fejedelem Általános Iskola
 203530;REAL School Nemzetközi Általános Iskola
 203531;Gemzsei Óvoda, Konyha és Mini Bölcsőde
 203532;Székely Mihály Általános Iskola
@@ -5568,7 +5567,7 @@
 203538;Károli Gáspár Református Egyetem Kaszap Utcai Református Óvoda
 203539;Jászapáti Gróf Széchenyi István Katolikus Általános Iskola és Gimnázium
 203540;Miskolci Édenkert Református Óvoda
-203541;Kecskeméti Barackvirág Evangélikus Óvoda 
+203541;Kecskeméti Barackvirág Evangélikus Óvoda
 203542;MIHÁLDI SZÁZSZORSZÉP ÓVODA
 203543;Eurythmie Alapfokú Művészeti Iskola
 203544;Igazkincs Református Óvoda
@@ -5577,7 +5576,7 @@
 203547;Égigérő Óvoda
 203548;Pindúrvilág Óvoda
 203549;Fészek Református Óvoda és Bölcsőde
-203550;Kisvárdai Református Egyházközség Gyöngyszem Református Óvoda 
+203550;Kisvárdai Református Egyházközség Gyöngyszem Református Óvoda
 203551;SÉI MESEVILÁG ÓVODA
 203552;Szent Péter Görögkatolikus Óvoda és Bölcsőde
 203553;Rókalepke Óvoda
@@ -5632,12 +5631,12 @@
 203611;Mezőtúri Bárdos Lajos Alapfokú Művészeti Iskola
 203612;Tapolcai Kazinczy Ferenc Általános Iskola
 203613;Görömbölyi Általános Iskola
-203614;Kiscsillag Református Óvoda és Bölcsőde 
+203614;Kiscsillag Református Óvoda és Bölcsőde
 203616;Nagydobszai Általános Iskola
 203617;Somogyapáti Általános Iskola
 203618;Szegedi Kossuth Lajos Általános Iskola
-203619;"Petneházi ""Édenkert"" Református Óvoda és Bölcsőde"
-203626;Pánczél Imre Óvoda, Általános Iskola, Készségfejlesztő Iskola, Kollégium és Egységes Gyógypedagógiai Módszertani Intézmény 
+203619;Petneházi "Édenkert" Református Óvoda és Bölcsőde
+203626;Pánczél Imre Óvoda, Általános Iskola, Készségfejlesztő Iskola, Kollégium és Egységes Gyógypedagógiai Módszertani Intézmény
 203627;Bárdos Lajos Görögkatolikus Általános Iskola és Alapfokú Művészeti Iskola
 203628;Brunszvik Teréz Római Katolikus Óvoda
 203629;Mandulaág Református Óvoda
@@ -5659,13 +5658,13 @@
 203647;MOSOLYGÓS ARANYFÜRT ÓVODA
 203648;Zöldág Óvoda
 203649;Angyalkert Katolikus Óvoda
-203650;Berzsenyi Dániel Evangélikus Általános Iskola 
+203650;Berzsenyi Dániel Evangélikus Általános Iskola
 203651;Pilisi Erdei Óvoda
 203652;Dunakeszi IV. Béla Király Gimnázium
 203653;Edelényi Nyitott Ajtó Baptista Szakképző Iskola, Középiskola, Általános Iskola, Óvoda és Kollégium
-203654;Lakiteleki Auti Alapítvány Gyógypedagógiai Általános Iskola 
+203654;Lakiteleki Auti Alapítvány Gyógypedagógiai Általános Iskola
 203655;Szent Rita Óvoda
-203656;Magyar-Ukrán Két Tanítási Nyelvű Általános Iskola és Gimnázium 
+203656;Magyar-Ukrán Két Tanítási Nyelvű Általános Iskola és Gimnázium
 203657;Keresztelő Szent János Óvoda
 203658;NAPSUGÁR Alapfokú Művészeti Iskola
 203659;IKLADI TASNÁDI LAJOS NÉMET NEMZETISÉGI ÁLTALÁNOS ISKOLA
