@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <title>OM JSON konvertáló</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <style>
+    body { font-family: sans-serif; max-width: 720px; margin: auto; padding: 20px; }
+    h1 { color: #003d66; }
+    input, button, textarea { font-size: 16px; margin-top: 10px; width: 100%; padding: 8px; }
+    #drop { border: 2px dashed #ccc; padding: 30px; text-align: center; color: #666; margin-bottom: 15px; }
+    #progress { width: 100%; height: 20px; background: #eee; border: 1px solid #ccc; margin-top: 10px; }
+    #bar { height: 100%; width: 0%; background: #007b5e; transition: width 0.4s ease; }
+    #log { background: #f9f9f9; border: 1px solid #ddd; font-size: 14px; padding: 8px; margin-top: 10px; height: 120px; overflow-y: auto; white-space: pre-line; }
+  </style>
+</head>
+<body>
+
+<h1>📥 OM .xlsx ➝ JSON konvertálás és GitHub feltöltés</h1>
+
+<div id="drop">👉 Húzd ide a <strong>kir_mukodo_intezmenyek*.xlsx</strong> fájlt vagy válaszd ki:</div>
+<input type="file" id="fileInput" accept=".xlsx">
+
+<label>🔑 GitHub Personal Access Token:</label>
+<input type="password" id="token" placeholder="ghp_xxx..." />
+
+<div id="progress"><div id="bar"></div></div>
+<div id="log"></div>
+
+<button id="uploadBtn">📤 Feltöltés GitHubra (JSON)</button>
+
+<script>
+const repo = "acsdaniel87/OM-autofill";
+const jsonPath = "azonositok/intezmenyek.json";
+
+let jsonData = "";
+let shaOfExisting = null;
+
+function log(msg) {
+  const box = document.getElementById("log");
+  box.textContent += msg + "\n";
+  box.scrollTop = box.scrollHeight;
+}
+
+function updateProgress(percent) {
+  document.getElementById("bar").style.width = percent + "%";
+}
+
+function saveTokenToSession() {
+  const tokenValue = document.getElementById("token").value.trim();
+  if (tokenValue.length > 10) sessionStorage.setItem("githubToken", tokenValue);
+}
+
+function loadTokenFromSession() {
+  const saved = sessionStorage.getItem("githubToken");
+  if (saved) document.getElementById("token").value = saved;
+}
+
+function handleFile(file) {
+  const tokenField = document.getElementById("token").value.trim();
+  if (!tokenField) {
+    alert("🔐 Kérlek, add meg a GitHub tokened.");
+    return;
+  }
+
+  if (!file.name.includes("kir_mukodo_intezmenyek") || !file.name.endsWith(".xlsx")) {
+    alert("❌ Csak megfelelő nevű .xlsx fájl engedélyezett!");
+    return;
+  }
+
+  log("📦 Fájl betöltése: " + file.name);
+  log("🔐 Token ellenőrizve.");
+  updateProgress(10);
+  saveTokenToSession();
+
+  const reader = new FileReader();
+  reader.onload = function (e) {
+    const data = new Uint8Array(e.target.result);
+    const workbook = XLSX.read(data, { type: "array" });
+    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+    const header = rows[0];
+    if ((header[0] || "").trim() !== "OM azonosító" || (header[1] || "").trim() !== "Intézmény megnevezése") {
+      alert("❌ Hibás fejléc! Elvárt: 'OM azonosító;Intézmény megnevezése'");
+      return;
+    }
+
+    log("✅ Fejléc rendben. Sorok feldolgozása...");
+    updateProgress(40);
+
+    const outputObj = {};
+    rows.slice(1).forEach(r => {
+      const om = (r[0] || "").toString().trim();
+      const name = (r[1] || "").toString().trim();
+      if (om && name) outputObj[om] = name;
+    });
+
+    jsonData = JSON.stringify(outputObj, null, 2);
+    log("✅ JSON generálás kész.");
+    updateProgress(70);
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function fetchExistingSha(token, path) {
+  return fetch(`https://api.github.com/repos/${repo}/contents/${path}`, {
+    headers: { Authorization: `Bearer ${token}` }
+  })
+  .then(res => res.ok ? res.json() : Promise.reject("❌ Fájl nem elérhető"))
+  .then(data => data.sha);
+}
+
+document.getElementById("drop").ondragover = e => e.preventDefault();
+document.getElementById("drop").ondrop = e => {
+  e.preventDefault();
+  const file = e.dataTransfer.files[0];
+  document.getElementById("fileInput").files = e.dataTransfer.files;
+  handleFile(file);
+};
+
+document.getElementById("fileInput").onchange = e => handleFile(e.target.files[0]);
+window.onload = loadTokenFromSession;
+
+document.getElementById("uploadBtn").onclick = async () => {
+  const token = document.getElementById("token").value.trim();
+  if (!token || !jsonData) {
+    alert("❗ Token és adat szükséges!");
+    return;
+  }
+
+  log("📡 SHA lekérése...");
+  try {
+    shaOfExisting = await fetchExistingSha(token, jsonPath);
+    log("✅ SHA: " + shaOfExisting);
+  } catch (e) {
+    log("ℹ️ Új fájlként töltjük fel.");
+  }
+
+  const payload = {
+    message: "Automatikus JSON feltöltés",
+    content: btoa(unescape(encodeURIComponent(jsonData))),
+    sha: shaOfExisting || undefined
+  };
+
+  updateProgress(90);
+  log("📤 Feltöltés GitHubra...");
+
+  fetch(`https://api.github.com/repos/${repo}/contents/${jsonPath}`, {
+    method: "PUT",
+    headers: {
+      "Authorization": `Bearer ${token}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.commit && data.commit.sha) {
+      log("✅ Sikeres feltöltés! Commit: " + data.commit.sha);
+    } else {
+      log("✅ Feltöltés megtörtént, de nincs commit SHA.");
+    }
+    updateProgress(100);
+  })
+  .catch(err => {
+    log("❌ Feltöltési hiba: " + err);
+    updateProgress(0);
+  });
+};
+</script>
+</body>
+</html>
