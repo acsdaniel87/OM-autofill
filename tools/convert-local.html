@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>OM konvertáló és feltöltő</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <style>
@@ -46,14 +46,32 @@ function updateProgress(percent) {
   document.getElementById("bar").style.width = percent + "%";
 }
 
+function saveTokenToSession() {
+  const tokenValue = document.getElementById("token").value.trim();
+  if (tokenValue.length > 10) sessionStorage.setItem("githubToken", tokenValue);
+}
+
+function loadTokenFromSession() {
+  const saved = sessionStorage.getItem("githubToken");
+  if (saved) document.getElementById("token").value = saved;
+}
+
 function handleFile(file) {
+  const tokenField = document.getElementById("token").value.trim();
+  if (!tokenField) {
+    alert("🔐 Kérlek, add meg a GitHub tokened a fájl feldolgozásához.");
+    return;
+  }
+
   if (!file.name.includes("kir_mukodo_intezmenyek") || !file.name.endsWith(".xlsx")) {
     alert("❌ Csak megfelelő nevű .xlsx fájl engedélyezett!");
     return;
   }
 
   log("📦 Fájl betöltése: " + file.name);
+  log("🔐 Token ellenőrizve.");
   updateProgress(10);
+  saveTokenToSession();
 
   const reader = new FileReader();
   reader.onload = function (e) {
@@ -96,6 +114,7 @@ document.getElementById("drop").ondrop = e => {
 };
 
 document.getElementById("fileInput").onchange = e => handleFile(e.target.files[0]);
+window.onload = loadTokenFromSession;
 
 document.getElementById("uploadBtn").onclick = async () => {
   const token = document.getElementById("token").value.trim();
