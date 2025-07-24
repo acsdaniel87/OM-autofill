@@ -1,7 +1,7 @@
 // OM ➝ Intézmény név adatlekérő modul
 // Forrás: kir_mukodo_intezmenyek_2025_07_23.csv
 
-const CSV_URL = "https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/azonositok/kir_mukodo_intezmenyek_2025_07_23.csv";
+const CSV_URL = "https://raw.githubusercontent.com/acsdaniel87/OM-autofill/main/azonositok/kir_mukodo_intezmenyek.csv";
 
 let omInstitutionMap = {}; // OM azonosító ➝ intézménynév
 
