@@ -14,7 +14,7 @@ async function loadInstitutionData() {
     const text = await response.text();
     const lines = text.trim().split("\n");
 
-    for (let i = 1; i < lines.length; i++) { // fejléc kihagyása
+    for (let i = 0; i < lines.length; i++) { // fejléc kihagyása
       const [om, name] = lines[i].split(";");
       if (om && name) {
         omInstitutionMap[om.trim()] = name.trim();
