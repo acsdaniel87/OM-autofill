@@ -1,3 +1,4 @@
+window.IntezmenyNevek = 
 {
   "100440": "Kiskunhalasi Református Kollégium Gólyafészek Óvoda",
   "100441": "Boldog Gizella Óvoda",
