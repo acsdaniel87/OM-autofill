@@ -30,9 +30,11 @@
 <button id="uploadBtn">📤 Feltöltés GitHubra (JSON)</button>
 
 <script>
+const repo = "acsdaniel87/OM-autofill";
+const jsonPath = "azonositok/intezmenyek.json";
+
 let jsonData = "";
 let shaOfExisting = null;
-const repo = "acsdaniel87/OM-autofill";
 
 function log(msg) {
   const box = document.getElementById("log");
@@ -57,7 +59,7 @@ function loadTokenFromSession() {
 function handleFile(file) {
   const tokenField = document.getElementById("token").value.trim();
   if (!tokenField) {
-    alert("🔐 Kérlek, add meg a GitHub tokened a fájl feldolgozásához.");
+    alert("🔐 Kérlek, add meg a GitHub tokened.");
     return;
   }
 
@@ -95,17 +97,17 @@ function handleFile(file) {
     });
 
     jsonData = JSON.stringify(outputObj, null, 2);
-    log("✅ Konvertálás JSON formátumba kész.");
+    log("✅ JSON generálás kész.");
     updateProgress(70);
   };
   reader.readAsArrayBuffer(file);
 }
 
-function fetchExistingSha(repo, token, path) {
+function fetchExistingSha(token, path) {
   return fetch(`https://api.github.com/repos/${repo}/contents/${path}`, {
     headers: { Authorization: `Bearer ${token}` }
   })
-  .then(res => res.ok ? res.json() : Promise.reject("❌ Nem érhető el a fájl."))
+  .then(res => res.ok ? res.json() : Promise.reject("❌ Fájl nem elérhető"))
   .then(data => data.sha);
 }
 
@@ -122,24 +124,21 @@ window.onload = loadTokenFromSession;
 
 document.getElementById("uploadBtn").onclick = async () => {
   const token = document.getElementById("token").value.trim();
-  const repo = document.getElementById("repo").value.trim();
-  const path = "azonositok/intezmenyek.json";
-
-  if (!token || !repo || !jsonData) {
-    alert("❗ Token, repo és konvertált adat szükséges!");
+  if (!token || !jsonData) {
+    alert("❗ Token és adat szükséges!");
     return;
   }
 
   log("📡 SHA lekérése...");
   try {
-    shaOfExisting = await fetchExistingSha(repo, token, path);
+    shaOfExisting = await fetchExistingSha(token, jsonPath);
     log("✅ SHA: " + shaOfExisting);
   } catch (e) {
-    log("ℹ️ Nem találtam meglévő fájlt — újként töltjük fel.");
+    log("ℹ️ Új fájlként töltjük fel.");
   }
 
   const payload = {
-    message: "Automatikus JSON feltöltés böngészőből",
+    message: "Automatikus JSON feltöltés",
     content: btoa(unescape(encodeURIComponent(jsonData))),
     sha: shaOfExisting || undefined
   };
@@ -147,7 +146,7 @@ document.getElementById("uploadBtn").onclick = async () => {
   updateProgress(90);
   log("📤 Feltöltés GitHubra...");
 
-  fetch(`https://api.github.com/repos/${repo}/contents/${path}`, {
+  fetch(`https://api.github.com/repos/${repo}/contents/${jsonPath}`, {
     method: "PUT",
     headers: {
       "Authorization": `Bearer ${token}`,
