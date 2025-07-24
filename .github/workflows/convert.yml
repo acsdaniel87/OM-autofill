@@ -1,0 +1,34 @@
+name: XLSX → CSV Konvertálás
+
+on:
+  workflow_dispatch:
+    inputs:
+      xlsx_url:
+        description: "Adja meg az XLSX fájl nyers GitHub URL-jét"
+        required: true
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository beolvasása
+        uses: actions/checkout@v3
+
+      - name: Node.js telepítése
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Függőségek telepítése
+        run: npm install
+
+      - name: XLSX konvertálása CSV-be
+        run: npm run convert
+        env:
+          XLSX_URL: ${{ inputs.xlsx_url }}
+
+      - name: CSV hozzáadása a repohoz
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Automatikus CSV generálás"
+          add: "azonositok/kir_mukodo_intezmenyek.csv"
