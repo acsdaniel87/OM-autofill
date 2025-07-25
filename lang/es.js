@@ -1,13 +1,13 @@
 window.OMLabels = {
   invalidOmAlert: "¡Identificador OM inválido!",
-  confirmDelete: "¿Estás seguro de que quieres eliminar este OM?",
+  confirmDelete: "¿Seguro que quieres eliminar este código OM?",
   settingsTitle: "Configuración",
-  addLabel: "Agregar OM",
+  addLabel: "Añadir nuevo OM",
   deleteLabel: "Eliminar",
-  shareLink: "Copiar enlace para compartir",
-  openKirint: "Buscador de instituciones KIRINT",
+  shareLink: "Copiar enlace de compartición",
+  openKirint: "Buscador de centros KIRINT",
   closePanel: "Cerrar",
-  inputPlaceholder: "ej. 202797",
-  reloadAlert: "Recargando la página...",
+  inputPlaceholder: "p. ej. 202797",
+  reloadAlert: "Recargando página...",
   selectLanguageLabel: "Idioma de la interfaz"
 };
