@@ -1,13 +1,13 @@
 window.OMLabels = {
   invalidOmAlert: "Invalid OM identifier!",
-  confirmDelete: "Are you sure you want to delete this OM?",
+  confirmDelete: "Are you sure you want to delete this OM code?",
   settingsTitle: "Settings",
-  addLabel: "Add OM",
+  addLabel: "Add new OM",
   deleteLabel: "Delete",
   shareLink: "Copy share link",
-  openKirint: "KIRINT Institution Finder",
+  openKirint: "KIRINT School Search",
   closePanel: "Close",
   inputPlaceholder: "e.g. 202797",
-  reloadAlert: "Reloading the page...",
+  reloadAlert: "Reloading page...",
   selectLanguageLabel: "Interface language"
 };
