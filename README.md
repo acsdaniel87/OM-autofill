@@ -79,7 +79,7 @@ Ez az eszköz Tampermonkey szkriptként működik, és lehetővé teszi OM azono
 
 <h2>📜 Licenc</h2>
 <p>
-Ez a projekt független fejlesztés, nem kapcsolódik az inyr.hu rendszeréhez.<br>
+Ez a projekt független fejlesztés, <b>nem kapcsolódik az inyr.hu rendszeréhez</b>.<br>
 Licenc: <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GNU GPLv3</a>
 </p>
 
